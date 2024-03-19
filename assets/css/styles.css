@@ -1,0 +1,296 @@
+@import url("./fonts.css");
+@import url("../bootstrap-5.3.3/css/bootstrap.min.css");
+@import url("../FontAwesome.Pro-6.4.2/css/all.css");
+:root {
+  --color-main-dask: rgb(95, 50, 184);
+  --color-main: rgb(140, 82, 255);
+  --color-text-dask: rgb(31, 26, 23);
+  --color-text-light: #ffffff;
+  --color-bg-light: #ffffff;
+  --color-text-gray: rgb(118, 130, 134);
+  --color-text-gray-light: rgba(31, 26, 23, 0.4);
+  --color-border: rgb(233, 233, 233);
+}
+
+body {
+  background: var(--color-text-gray-light);
+}
+
+.chat-plugin_container {
+  font-family: "Mulish";
+  font-size: 16px;
+  color: var(--color-text-dask);
+  background: red;
+}
+
+.chat-plugin-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.chat-plugin-content {
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px var(--color-border);
+  background: var(--color-bg-light);
+  position: relative;
+  transform: scale(0);
+  opacity: 0;
+  transition: ease-out 0.3s;
+  position: fixed;
+  right: 30px;
+  bottom: 114px;
+  width: 100%;
+  max-width: 430px;
+  transform-origin: bottom right;
+}
+
+.chat-plugin-content.chatshow {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.chat-plugin-content::before {
+  content: "";
+  border-style: solid;
+  border-color: transparent var(--color-bg-light) transparent
+    var(--color-bg-light);
+  border-width: 0 30px 20px 0;
+  position: absolute;
+  bottom: -14px;
+  right: 65px;
+}
+
+.chat-plugin-header {
+  background-image: linear-gradient(var(--color-main-dask), var(--color-main));
+  border-radius: 10px;
+  color: var(--color-text-light);
+  padding: 20px 16px;
+  position: relative;
+}
+
+.chat-plugin-close {
+  font-size: 24px;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.chat-plugin-header-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.chat-plugin-header-company-logo {
+  height: 64px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.chat-plugin-header-welcome {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.chat-plugin-header-p {
+  font-size: 17px;
+}
+
+.chat-plugin-header-note {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.chat-plugin-header-note span {
+  font-weight: 800;
+}
+
+.chat-plugin-body {
+  padding: 0 25px;
+}
+
+.chat-plugin-body-info {
+  display: flex;
+  align-items: center;
+}
+
+.chat-plugin-body-company-logo {
+  width: 86px;
+  height: 86px;
+  overflow: hidden;
+  border-radius: 100%;
+  flex-shrink: 0;
+  margin-right: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 22px;
+}
+
+.chat-plugin-body-company-logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.chat-plugin-body-invite {
+  font-size: 22px;
+  color: var(--color-main);
+  font-weight: 700;
+}
+
+.chat-plugin-body-p {
+  font-weight: 500;
+  line-height: 24px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.chat-plugin-body-p span {
+  font-weight: 800;
+}
+
+.input-icon-left {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.chat-plugin-input {
+  width: 100%;
+  padding: 7px 10px 7px 45px;
+  border: solid 1px var(--color-border);
+  border-radius: 4px;
+}
+
+.chat-plugin-input:focus {
+  border-color: var(--color-main);
+  outline: none;
+}
+
+.input-icon-left i {
+  position: absolute;
+  pointer-events: none;
+  font-size: 18px;
+  left: 14px;
+  top: 11px;
+  color: var(--color-main);
+}
+
+.chat-plugin-btn-start {
+  display: flex;
+  justify-content: center;
+}
+
+.chat-plugin-btn-start button {
+  height: 46px;
+  border-radius: 8px;
+  border: none;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 11px;
+  font-size: 18px;
+  font-weight: 700;
+  background: var(--color-main);
+  color: var(--color-text-light);
+}
+
+.chat-plugin-btn-start button i {
+  margin-left: 15px;
+}
+
+.chat-plugin-quick-contact {
+  padding-bottom: 10px;
+}
+
+.chat-plugin-quick-contact-title {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 28px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.chat-plugin-quick-contact-title::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: var(--color-border);
+  position: absolute;
+  top: 50%;
+}
+
+.chat-plugin-quick-contact-title span {
+  position: relative;
+  padding: 0 20px;
+  background: var(--color-bg-light);
+}
+
+.chat-plugin-quick-contact-item {
+  height: 60px;
+  border: solid 1px var(--color-border);
+  border-radius: 4px;
+  display: flex;
+  margin-bottom: 13px;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-text-dask);
+  text-decoration: none;
+  padding: 10px;
+}
+
+.chat-plugin-quick-contact-item img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+
+.chat-plugin-quick-contact-item span {
+  margin-right: 15px;
+}
+
+.chat-plugin-quick-contact-item i {
+  margin-left: auto;
+  color: var(--color-text-gray);
+}
+
+.chat-plugin_icons {
+  width: 68px;
+  height: 68px;
+  border-radius: 100%;
+  background: var(--color-main);
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  cursor: pointer;
+}
+
+.chat-plugin-icon-close {
+  font-size: 35px;
+  color: var(--color-text-light);
+  display: none;
+}
+
+.chat-plugin_icons.chatshow .chat-plugin-icon-close {
+  display: block;
+}
+
+.chat-plugin_icons.chatshow .chat-plugin-icon-default {
+  display: none;
+}

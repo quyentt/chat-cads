@@ -2800,7 +2800,7 @@ body {
   display: flex;
 }
 
-.check-custom span i {
+.add-tag-dropdown .dropdown-menu .dropdown-tag-list .check-custom span i {
   font-size: 20px;
 }
 

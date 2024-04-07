@@ -917,6 +917,7 @@ body {
 
 .messager-item .message-sumany {
   margin-left: 11px;
+  flex: 1;
 }
 
 .messager-item .message-sumany .time-send {
@@ -1371,6 +1372,7 @@ body {
   display: flex;
   align-items: center;
   padding: 5px 11px;
+  height: 35px;
 }
 
 .tag-dropdown-menu li svg {
@@ -1379,6 +1381,20 @@ body {
 
 .tag-dropdown-menu li:hover {
   background: var(--color-border);
+}
+
+.tag-dropdown-menu li a {
+  text-decoration: none;
+  color: var(--color-text-dask);
+}
+
+.tag-dropdown-menu li:last-child {
+  border-top: solid 1px var(--color-border);
+}
+
+.tag-dropdown-menu li.active {
+  background: var(--color-main);
+  color: var(--color-text-light);
 }
 
 .chat-content-top .btn {
@@ -2691,4 +2707,113 @@ body {
 
 .chatting-job .chatting-job-alert-row .fw-bolder {
   font-weight: 800;
+}
+
+.tag-dropdown-menu label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.tag-dropdown-menu label span {
+  margin-left: 0;
+}
+
+.messger-sort-item .label {
+  font-weight: 500;
+}
+
+.messger-sort-item .label:hover {
+  background: transparent;
+}
+
+.messger-sort-item li a:hover {
+  background: transparent;
+}
+
+.mod-tag-item {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  height: 40px;
+  padding: 0 15px;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.mod-tag-item:hover {
+  background: var(--color-main-light);
+}
+
+.mod-tag-item .action a {
+  color: var(--color-text-gray);
+  margin-left: 10px;
+  display: none;
+}
+
+.mod-tag-item .action a:hover {
+  color: var(--color-main);
+}
+
+.mod-tag-item:hover .action a {
+  display: inline-block;
+}
+
+.mod-tag-item .cont {
+  display: flex;
+  align-items: center;
+}
+
+.mod-tag-item .cont span {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  margin-left: 10px;
+}
+
+.add-tag-wrap {
+  display: flex;
+}
+
+.add-tag-dropdown .check-custom span {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.add-tag-dropdown .dropdown-menu {
+  padding: 10px;
+}
+
+.add-tag-dropdown .dropdown-menu p {
+  margin-bottom: 5px;
+  padding: 0 5px;
+  color: var(--color-text-gray-light);
+}
+
+.add-tag-dropdown .dropdown-menu .dropdown-tag-list {
+  display: flex;
+}
+
+.check-custom span i {
+  font-size: 20px;
+}
+
+.add-tag-dropdown .btn-add-tag {
+  border: none;
+}
+
+.btn-outline-main {
+  border-color: var(--color-main);
+  color: var(--color-main);
+}
+
+.btn-outline-main:hover {
+  background: var(--color-main);
+  color: var(--color-text-light);
 }

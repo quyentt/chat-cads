@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1">
     <title>Website</title>
-    <link rel="stylesheet" href="../assets/css/mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../assets/select2/css/select2.min.css" />
     <link rel="stylesheet" href="../assets/css/styles.css">
 
     <link rel="stylesheet" href="../assets/css/responsive.css">
@@ -22,31 +22,74 @@
                     <img src="../assets/images/logo-cads.jpeg">
                 </a>
                 <div class="nav-tab-top">
-                    <div class="item">
+                    <div class="item" title="Lọc">
                         <div class="filters">
                             <i class="fa-light fa-filters"></i>
                             <span>Lọc</span>
                         </div>
                     </div>
-                    <div class="item active">
+                    <div class="item active" title="Tin nhắn">
                         <div class="has-nofi">
                             <i class="fa-light fa-messages"></i>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" title="Cuộc gọi">
                         <div class="has-nofi">
-                            <i class="fa-light fa-phone-volume"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none">
+                                <path id="Vector" d="M23.5 11C23.22 11 23 10.77 23 10.5C23 5.26 18.73 1 13.5 1C13.22 1 13 0.77 13 0.5C13 0.22 13.22 0 13.5 0C19.29 0 24 4.7 24 10.5C24 10.77 23.77 11 23.5 11ZM20 10.5C20 6.91 17.08 4 13.5 4C13.22 4 13 4.22 13 4.5C13 4.77 13.22 5 13.5 5C16.53 5 19 7.46 19 10.5C19 10.77 19.22 11 19.5 11C19.77 11 20 10.77 20 10.5ZM22.23 22.27L23.21 21.14C23.72 20.63 24 19.96 24 19.24C24 18.52 23.72 17.84 23.16 17.29L20.71 15.42C19.66 14.37 17.96 14.37 16.91 15.42L15.38 16.91C11.7 15.41 8.7 12.41 7.08 8.61L8.57 7.08C9.62 6.04 9.62 4.33 8.61 3.33L6.65 0.79C5.64 -0.23 3.84 -0.21 2.88 0.76L1.7 1.79C0.6 2.88 0 4.37 0 5.97C0 13.72 10.27 24 18.02 24C19.62 24 21.11 23.39 22.23 22.27ZM5.9 1.44L7.86 3.98C8.52 4.64 8.52 5.72 7.86 6.38L6.14 8.15C6 8.29 5.96 8.5 6.03 8.68C7.76 12.99 11.14 16.37 15.32 17.96C15.5 18.03 15.71 17.99 15.84 17.85L17.61 16.13C17.61 16.13 17.61 16.13 17.61 16.13C18.25 15.49 19.32 15.45 20.05 16.17L22.5 18.04C23.16 18.7 23.16 19.77 22.48 20.46L21.5 21.58C20.59 22.49 19.35 23 18.02 23C10.86 23 1 13.13 1 5.97C1 4.64 1.5 3.4 2.38 2.52L3.56 1.49C3.89 1.15 4.34 0.99 4.77 0.99C5.19 0.99 5.6 1.14 5.9 1.44L5.9 1.44Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                           </svg>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" title="Hộp thư">
                         <div class="has-nofi">
-                            <i class="fa-light fa-messages"></i>
+                            <i class="fa-light fa-envelope-open-text"></i>
                             <span>9+</span>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item" title="title">
                         <div class="has-nofi">
-                            <i class="fa-light fa-calendar-day"></i>
+                            <i class="fa-light fa-low-vision"></i>
+                        </div>
+                    </div>
+                    <div class="item" title="title">
+                        <div class="has-nofi">
+                            <i class="fa-light fa-calendar-days"></i>
+                        </div>
+                    </div>
+                    <div class="item" title="title">
+                        <div class="has-nofi">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none">
+                              
+                                <g>
+                                    <path id="Vector" d="M24 20.6C24 21.92 22.92 23 21.6 23L21 23L21 23.5C21 23.77 20.77 24 20.5 24C20.22 24 20 23.77 20 23.5L20 23L19.5 23C18.12 23 17 21.87 17 20.5C17 20.22 17.22 20 17.5 20C17.77 20 18 20.22 18 20.5C18 21.32 18.67 22 19.5 22L21.6 22C22.37 22 23 21.37 23 20.6C23 19.91 22.51 19.34 21.83 19.23L19 18.75C17.84 18.56 17 17.57 17 16.39C17 15.07 18.07 14 19.39 14L20 14L20 13.5C20 13.22 20.22 13 20.5 13C20.77 13 21 13.22 21 13.5L21 14L21.5 14C22.87 14 24 15.12 24 16.5C24 16.77 23.77 17 23.5 17C23.22 17 23 16.77 23 16.5C23 15.67 22.32 15 21.5 15L19.39 15C18.62 15 18 15.62 18 16.39C18 17.08 18.49 17.65 19.16 17.77L21.99 18.24C23.15 18.43 24 19.42 24 20.6ZM18 6C18 9.3 15.3 12 12 12C8.69 12 6 9.3 6 6C6 2.69 8.69 0 12 0C15.3 0 18 2.69 18 6ZM17 6C17 3.24 14.75 1 12 1C9.24 1 7 3.24 7 6C7 8.75 9.24 11 12 11C14.75 11 17 8.75 17 6ZM14.64 14.39C13.79 14.13 12.9 14 12 14C7.03 14 3 18.03 3 23L3 23.5C3 23.77 3.22 24 3.5 24C3.77 24 4 23.77 4 23.5L4 23C4 18.58 7.58 15 12 15C12.8 15 13.59 15.11 14.35 15.35C14.61 15.43 14.89 15.28 14.97 15.02C15.05 14.75 14.91 14.47 14.64 14.39L14.64 14.39Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="item" title="title">
+                        <div class="has-nofi">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.000000" height="25.000000" viewBox="0 0 25 25" fill="none">
+
+                                <path id="Vector" d="M8.81 7.58L12.03 0.96C12.09 0.82 12.22 0.75 12.37 0.75C12.51 0.75 12.64 0.82 12.7 0.96L15.92 7.58C16.03 7.81 16.24 7.96 16.49 7.99L23.67 9.06C23.81 9.08 23.93 9.17 23.97 9.31C24.01 9.45 23.98 9.59 23.87 9.69L18.67 14.86C18.5 15.03 18.42 15.27 18.46 15.51L19.69 22.81C19.71 22.95 19.66 23.09 19.54 23.17C19.42 23.26 19.27 23.27 19.14 23.2L12.72 19.77C12.5 19.65 12.23 19.65 12.01 19.77L5.59 23.2C5.46 23.27 5.31 23.26 5.2 23.17C5.09 23.09 5.02 22.95 5.05 22.81L6.28 15.51C6.32 15.27 6.24 15.02 6.06 14.86L0.86 9.69L0.33 10.22L0.86 9.69C0.75 9.59 0.72 9.44 0.76 9.31C0.8 9.17 0.92 9.07 1.06 9.05L8.24 7.99C8.49 7.96 8.7 7.8 8.81 7.58ZM18.79 23.86C19.17 24.06 19.63 24.04 19.97 23.78C20.32 23.53 20.5 23.1 20.43 22.68L19.2 15.39L24.41 10.22C24.71 9.92 24.82 9.48 24.69 9.08C24.55 8.67 24.2 8.38 23.78 8.31L16.59 7.25L13.38 0.63C13.19 0.24 12.8 0 12.37 0C11.93 0 11.54 0.24 11.35 0.63L8.14 7.25L0.95 8.32C0.53 8.38 0.18 8.67 0.05 9.08C-0.08 9.49 0.03 9.93 0.33 10.23L5.54 15.39L4.31 22.68C4.24 23.1 4.41 23.53 4.76 23.78C5.11 24.04 5.57 24.06 5.95 23.86L12.37 20.43L18.79 23.86L18.79 23.86Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                <path id="Vector" d="M12.03 0.96C12.09 0.82 12.22 0.75 12.37 0.75C12.51 0.75 12.64 0.82 12.7 0.96L15.92 7.58C16.03 7.81 16.24 7.96 16.49 7.99L23.67 9.06C23.81 9.08 23.93 9.17 23.97 9.31C24.01 9.45 23.98 9.59 23.87 9.69L18.67 14.86C18.5 15.03 18.42 15.27 18.46 15.51L19.69 22.81C19.71 22.95 19.66 23.09 19.54 23.17C19.42 23.26 19.27 23.27 19.14 23.2L12.72 19.77C12.5 19.65 12.23 19.65 12.01 19.77L5.59 23.2C5.46 23.27 5.31 23.26 5.2 23.17C5.09 23.09 5.02 22.95 5.05 22.81L6.28 15.51C6.32 15.27 6.24 15.02 6.06 14.86L0.86 9.69L0.33 10.22L0.86 9.69C0.75 9.59 0.72 9.44 0.76 9.31C0.8 9.17 0.92 9.07 1.06 9.05L8.24 7.99C8.49 7.96 8.7 7.8 8.81 7.58L12.03 0.96ZM19.97 23.78C20.32 23.53 20.5 23.1 20.43 22.68L19.2 15.39L24.41 10.22C24.71 9.92 24.82 9.48 24.69 9.08C24.55 8.67 24.2 8.38 23.78 8.31L16.59 7.25L13.38 0.63C13.19 0.24 12.8 0 12.37 0C11.93 0 11.54 0.24 11.35 0.63L8.14 7.25L0.95 8.32C0.53 8.38 0.18 8.67 0.05 9.08C-0.08 9.49 0.03 9.93 0.33 10.23L5.54 15.39L4.31 22.68C4.24 23.1 4.41 23.53 4.76 23.78C5.11 24.04 5.57 24.06 5.95 23.86L12.37 20.43L18.79 23.86L18.79 23.86C19.17 24.06 19.63 24.04 19.97 23.78Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="0.300000"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-tab-top nav-tab-bottom">
+                    <div class="item" title="title">
+                        <div class="has-nofi">
+                            <i class="fa-light  fa-rectangle-history-circle-user"></i>
+                        </div>
+                    </div>
+                    <div class="item" title="title">
+                        <div class="has-nofi">
+                            <i class="fa-light fa-check-to-slot"></i>
+                        </div>
+                    </div>
+                    <div class="item" title="title">
+                        <div class="has-nofi">
+                            <i class="fa-light fa-cog"></i>
                         </div>
                     </div>
                 </div>
@@ -1183,6 +1226,66 @@
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi illum esse quas odit? Natus magnam cum voluptatum officiis officia quibusdam consequuntur laborum sapiente aperiam accusamus nostrum exercitationem, incidunt necessitatibus cumque.
                                 </div>
                             </div>
+                            <div class="chatting-job">
+                                <div class="chatting-job-btn">
+                                    <button class="btn btn-main px-5" data-bs-toggle="modal" data-bs-target="#giaoviec">
+                                        <i class="fa-light fa-check-to-slot me-2"></i>
+                                        <span class="fw-bold">Tạo việc</span>
+                                    </button>
+
+                                </div>
+                            </div>
+                            <div class="my-chatting">
+                                <div class="chatting-job-created">
+                                    <div class="head">
+                                        <div>ID công việc: ID00978</div>
+                                        <div>Người tạo: Trần Thế Quyền - ID00978</div>
+                                    </div>
+                                    <div class="center">
+                                        <div class="job-content">
+                                            Kiểm tra lại phần mềm cho khách hàng trong danh sách mới
+                                        </div>
+                                        <div class="job-date">
+                                            <div>Bắt đầu: 10/03/2024 10:00</div>
+                                            <div>Kết thúc: 10/03/2024 10:00</div>
+                                        </div>
+                                    </div>
+                                    <div class="foot">
+                                        <button class="btn btn-main">
+                                            <i class="fa-light fa-briefcase me-1"></i>
+                                        <span>Nhận việc</span>
+                                        </button>
+                                        <button class="btn btn-outline-primary me-1">
+                                            <i class="fa-light fa-arrow-up-right-from-square"></i>
+                                        <span>Xem chi tiết</span>
+                                        </button>
+                                        <button class="btn btn-outline-warning me-1">
+                                            <i class="fa-light fa-reply"></i>
+                                        <span>Trả lời</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chatting-job">
+                                <div class="chatting-job-alert-row">
+                                    <i class="fa-light fa-check-to-slot"></i>
+                                    <span class="fw-bolder">MNV012  -  Trần Bích Phượng</span>
+                                    <span class="fw-semibold">Đã nhận việc bạn giao</span>
+                                    <a href="#">Chi tiết</a>
+                                </div>
+                                <div class="chatting-job-alert-row">
+                                    <i class="fa-light fa-check-to-slot"></i>
+                                    <span class="fw-bolder">MNV012  -  Trần Bích Phượng</span>
+                                    <span class="fw-semibold">Đã mở lại công việc việc bạn giao</span>
+                                    <a href="#">Chi tiết</a>
+                                </div>
+                                <div class="chatting-job-alert-row">
+                                    <i class="fa-light fa-check-to-slot"></i>
+                                    <span class="fw-bolder">MNV012  -  Trần Bích Phượng</span>
+                                    <span class="fw-semibold">Đã hoàn thành công việc việc bạn giao</span>
+                                    <a href="#">Chi tiết</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="chat-footer">
@@ -1204,7 +1307,7 @@
                                     <button class="btn btn-add-alert" title="Tạo nhắc hẹn">
                                         <i class="fa-light fa-calendar-clock"></i>
                                     </button>
-                                    <button class="btn btn-todo" title="Giao việc">
+                                    <button class="btn btn-todo" title="Giao việc" data-bs-toggle="modal" data-bs-target="#giaoviec">
                                         <i class="fa-light fa-check-to-slot"></i>
                                         <span>Giao việc</span>
                                     </button>
@@ -1215,6 +1318,9 @@
                                     <button class="btn btn-changefont" title="Định dạng tin nhắn">
                                         <i class="fa-light fa-font-case"></i>
                                         <span>Định dạng tin nhắn</span>
+                                    </button>
+                                    <button class="btn btn-quickmessage" title="Chèn tin nhắn nhanh">
+                                        <i class="fa-light fa-message-exclamation"></i>
                                     </button>
                                     <button class="btn btn-godrive" title="Gửi file từ goole drive">
                                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.000000" height="28.000000" viewBox="0 0 32 28" fill="none">
@@ -1235,9 +1341,6 @@
                                         <i class="fa-light fa-ellipsis"></i>
                                     </button>
                                     <ul class="chat-f-action-menu dropdown-menu">
-
-
-
 
 
                                         <li>
@@ -1272,7 +1375,7 @@
                                             </button>
                                         </li>
                                         <li>
-                                            <button class="btn btn-todo" title="Giao việc">
+                                            <button class="btn btn-todo" title="Giao việc" data-bs-toggle="modal" data-bs-target="#giaoviec">
                                                 <i class="fa-light fa-check-to-slot"></i>
                                                 <span>Giao việc</span>
                                             </button>
@@ -1318,12 +1421,12 @@
                         </div>
                         <div class="user-info-scroll">
                             <div class="company-info-collapse">
-                                <div class="label" data-bs-toggle="collapse" data-bs-target="#1">
+                                <div class="label collapsed" data-bs-toggle="collapse" data-bs-target="#1">
                                     <i class="fa-light fa-building-user"></i>
                                     <span>Thông tin về doanh nghiệp</span>
                                     <i class="fa-light fa-chevron-right"></i>
                                 </div>
-                                <div class="collapse show" id="1">
+                                <div class="collapse" id="1">
                                     <div class="company-info-collapse-content">
                                         <p>
                                             <b>Công ty:</b> Công ty Đầu tư Xây dựng Giao thông Phương Thành
@@ -1406,7 +1509,7 @@
                                     <a href="#link" data-bs-toggle="tab" class="item">Link</a>
                                 </div>
                                 <div class="tab-content">
-                                    <div class="tab-pane fade " id="image">
+                                    <div class="tab-pane fade  show active" id="image">
                                         <div class="tab-pane-image">
                                             <div class="item">
                                                 <img src="../assets/images/image.jpg" alt="">
@@ -1490,7 +1593,7 @@
                                             Xem tất cả
                                         </button>
                                     </div>
-                                    <div class="tab-pane fade show active" id="link">
+                                    <div class="tab-pane fade" id="link">
                                         <div class="tab-pane-link">
                                             <div class="item">
                                                 <div class="favicon">
@@ -1580,120 +1683,120 @@
                                 </div>
                                 <div class="modal-contact-list">
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox" checked>
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="" checked>
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
                                         <div class="user-name">Trương Minh Tuyền</div>
                                     </div>
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox" checked>
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="" checked>
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
                                         <div class="user-name">Trương Minh Tuyền</div>
                                     </div>
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
                                         <div class="user-name">Trương Minh Tuyền</div>
                                     </div>
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
                                         <div class="user-name">Trương Minh Tuyền</div>
                                     </div>
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
                                         <div class="user-name">Trương Minh Tuyền</div>
                                     </div>
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
                                         <div class="user-name">Trương Minh Tuyền</div>
                                     </div>
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
                                         <div class="user-name">Trương Minh Tuyền</div>
                                     </div>
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
                                         <div class="user-name">Trương Minh Tuyền</div>
                                     </div>
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
                                         <div class="user-name">Trương Minh Tuyền</div>
                                     </div>
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
                                         <div class="user-name">Trương Minh Tuyền</div>
                                     </div>
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
                                         <div class="user-name">Trương Minh Tuyền</div>
                                     </div>
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
                                         <div class="user-name">Trương Minh Tuyền</div>
                                     </div>
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
                                         <div class="user-name">Trương Minh Tuyền</div>
                                     </div>
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
                                         <div class="user-name">Trương Minh Tuyền</div>
                                     </div>
                                     <div class="item">
-                                        <label class="check-custom" for="checkbox">
-                                            <input type="checkbox" name="" id="checkbox">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
                                             <span><i class="fa-light fa-check"></i></span>
                                         </label>
                                         <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
@@ -1723,20 +1826,272 @@
             </div>
         </div>
     </div>
+    <!-- modal giao việc -->
+    <div class="modal fade" id="giaoviec">
+        <div class="modal-dialog modal-dialog-centered modal-1200">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Giao việc</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-create-job">
+                        <div class="create-job-wrap">
+                            <div class="create-job-left">
+                                <div class="main-title"><span>Thông tin chung</span></div>
+                                <div class=" create-job-name-row">
+                                    <div class="input-label-body">
+                                        <span>Tạo công việc <span class="text-red ms-0 ps-0">*</span></span>
+                                        <input type="text" placeholder="Tiêu đề công việc" class="form-control">
+                                    </div>
+                                    <div class="input-checkbox">
+                                        <label class="check-custom square">
+                                            <input type="checkbox" name="" checked>
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        
+                                        </label>
+                                        <span>Quan trọng</span>
+                                    </div>
+                                </div>
+                                <div class="create-job-ca-row">
+                                    <div class="input-checkbox">
+                                        <label class="check-custom square">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        
+                                        </label>
+                                        <span>Chọn theo ca, giờ</span>
+                                    </div>
+                                    <div class=" ca-select">
+                                        <label class="fw-bold">Ca</label>
+                                        <select name="" id="" class="select2-gv form-select">
+                                            <option value="">Chọn ca</option>
+                                            <option value="">Chọn ca</option>
+                                            <option value="">Chọn ca</option>
+                                            <option value="">Chọn ca</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="create-job-date-row">
+                                    <div class="date-time">
+                                        <div class="date">
+                                            <div class="label">Ngày bắt đầu <span class="text-red">*</span></div>
+                                            <div class="quick-search">
+                                                <input type="text" class="form-control" value="11/05/2024">
+                                                <i class="fa-light fa-calendar-day"></i>
+                                            </div>
+                                        </div>
+                                        <div class="time">
+                                            <div class="label">Giờ bắt đầu <span class="text-red">*</span></div>
+                                            <div class="quick-search">
+                                                <input type="text" class="form-control" value="09:05" disabled>
+                                                <i class="fa-light fa-clock"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="date-time">
+                                        <div class="date">
+                                            <div class="label">Ngày kết thúc <span class="text-red">*</span></div>
+                                            <div class="quick-search">
+                                                <input type="text" class="form-control" value="11/05/2024">
+                                                <i class="fa-light fa-calendar-day"></i>
+                                            </div>
+                                        </div>
+                                        <div class="time">
+                                            <div class="label">Giờ kết thúc <span class="text-red">*</span></div>
+                                            <div class="quick-search">
+                                                <input type="text" class="form-control" value="09:05" disabled>
+                                                <i class="fa-light fa-clock"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="create-job-cont-ip">
+                                    <div class="input-label-body">
+                                        <span>Nội dung<span class="text-red ms-0 ps-0">*</span></span>
+                                        <textarea name="" id="" rows="3" class="form-control" placeholder="Nhập nội dung công việc"></textarea>
+                                    </div>
+                                </div>
+                                <div class="create-job-type-select">
+
+                                    <div class="type-job-select">
+                                        <div class="select2-label-top">
+                                            <div class="label">Loại công việc <span class="text-red">*</span></div>
+                                            <select name="" id="" class="select2-gv form-select">
+                                                <option value="">Làm sản phẩm</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                                
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="name-select">
+                                        <div class="select2-label-top">
+                                            <div class="label">Người thực hiện chính <span class="text-red">*</span></div>
+                                            <select name="" id="" class="select2-gv form-select">
+                                                    <option value="">Nguyễn Thị Bích</option>
+                                                    <option value="">Chọn ca</option>
+                                                    <option value="">Chọn ca</option>
+                                                    <option value="">Chọn ca</option>
+                                                </select>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="create-job-table table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <td>Tên file đính kèm</td>
+                                                <td style="width: 120px;">Người đính kèm</td>
+                                                <td style="width: 125px;">Ngày đính kèm</td>
+                                                <td style="width: 90px;">Dung lượng</td>
+                                                <td></td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span class="truncate-2">Báo cáo công việc hằng ngày từ ngày đến ngày</span></td>
+                                                <td>Hoàng ánh mai</td>
+                                                <td>10/10/2023 09:05</td>
+                                                <td>528.11 KB</td>
+                                                <td>
+                                                    <div class="create-job-table-action">
+                                                        <a href="#"><i class="fa-light fa-download"></i></a>
+                                                        <a href="#"><i class="fa-light fa-trash"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Báo cáo công việc hằng ngày từ ngày đến ngày</td>
+                                                <td>Hoàng ánh mai</td>
+                                                <td>10/10/2023 09:05</td>
+                                                <td>528.11 KB</td>
+                                                <td>
+                                                    <div class="create-job-table-action">
+                                                        <a href="#"><i class="fa-light fa-download"></i></a>
+                                                        <a href="#"><i class="fa-light fa-trash"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Báo cáo công việc hằng ngày từ ngày đến ngày</td>
+                                                <td>Hoàng ánh mai</td>
+                                                <td>10/10/2023 09:05</td>
+                                                <td>528.11 KB</td>
+                                                <td>
+                                                    <div class="create-job-table-action">
+                                                        <a href="#"><i class="fa-light fa-download"></i></a>
+                                                        <a href="#"><i class="fa-light fa-trash"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="add-file"><a href="#">Thêm tài liệu đính kèm</a></div>
+                                </div>
+                            </div>
+                            <div class="create-job-right">
+                                <div class="main-title">Thông tin khác</div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="select2-label-top">
+                                        <div class="label">Người giao việc</div>
+                                        <select name="" id="" class="select2-gv form-select" multiple>
+                                                <option value="">Nguyễn Thị Bích</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="select2-label-top">
+                                        <div class="label">Xử lý phối hợp</div>
+                                        <select name="" id="" class="select2-gv form-select">
+                                                <option value="">Nguyễn Thị Bích</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="input-label-body">
+                                        <span>Dự án</span>
+                                        <input type="text" placeholder="Tên dự án" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="input-label-body quick-search">
+                                        <span>Công văn</span>
+                                        <input type="text" placeholder="Công văn" class="form-control">
+                                        <i class="fa-light fa-arrow-up-right-from-square text-link"></i>
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="input-label-body">
+                                        <span>Công việc chính</span>
+                                        <input type="text" placeholder="Công việc chính" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="input-label-body quick-search">
+                                        <span>Khách hàng</span>
+                                        <input type="text" placeholder="Khách hàng" class="form-control">
+                                        <i class="fa-light fa-user-plus text-link"></i>
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="input-label-body">
+                                        <span>Địa điểm</span>
+                                        <input type="text" placeholder="Địa điểm" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="select2-label-top">
+                                        <div class="label">Xe</div>
+                                        <select name="" id="" class="select2-gv form-select">
+                                                <option value="">Chọn xe</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                            </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-main">Cập nhật CV</button>
+                    <button type="button" class="btn btn-gray-2 ms-4" data-bs-dismiss="modal">Hủy bỏ CV</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- JS -->
     <script src="../assets/bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/jquery-3.7.1.min.js"></script>
     <script src="../assets/scrollbar/jquery.scrollbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.full.min.js"></script>
 
     <script src="../assets/js/custom.js"></script>
-
-    <script src="../assets/js/mCustomScrollbar.concat.min.js"></script>
-    <!-- <script>
+    <script>
+        const chattingContent = document.querySelector('.chat-body');
+        chattingContent.scrollTop = chattingContent.scrollHeight;
         $(document).ready(function() {
-            $('.single-select').select2();
+
+            $('.select2-gv').select2({
+                dropdownParent: $('#giaoviec')
+            });
+
         });
-    </script> -->
+    </script>
 
 </body>
 

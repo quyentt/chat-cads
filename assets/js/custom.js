@@ -78,7 +78,7 @@ $(document).ready(function () {
   let chatInfoToggle = document.querySelector(".btn-chat-info-toggle");
   let aside = document.querySelector("aside");
   chatInfoToggle.addEventListener("click", () => {
-    aside.classList.add("show");
+    aside.classList.toggle("show");
   });
   window.addEventListener("click", (e) => {
     if (aside.contains(e.target) || chatInfoToggle.contains(e.target)) {

@@ -1364,66 +1364,8 @@
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi illum esse quas odit? Natus magnam cum voluptatum officiis officia quibusdam consequuntur laborum sapiente aperiam accusamus nostrum exercitationem, incidunt necessitatibus cumque.
                                 </div>
                             </div>
-                            <div class="chatting-job">
-                                <div class="chatting-job-btn">
-                                    <button class="btn btn-main px-5" data-bs-toggle="modal" data-bs-target="#giaoviec">
-                                        <i class="fa-light fa-check-to-slot me-2"></i>
-                                        <span class="fw-bold">Tạo việc</span>
-                                    </button>
 
-                                </div>
-                            </div>
-                            <div class="my-chatting">
-                                <div class="chatting-job-created">
-                                    <div class="head">
-                                        <div>ID công việc: ID00978</div>
-                                        <div>Người tạo: Trần Thế Quyền - ID00978</div>
-                                    </div>
-                                    <div class="center">
-                                        <div class="job-content">
-                                            Kiểm tra lại phần mềm cho khách hàng trong danh sách mới
-                                        </div>
-                                        <div class="job-date">
-                                            <div>Bắt đầu: 10/03/2024 10:00</div>
-                                            <div>Kết thúc: 10/03/2024 10:00</div>
-                                        </div>
-                                    </div>
-                                    <div class="foot">
-                                        <button class="btn btn-main">
-                                            <i class="fa-light fa-briefcase me-1"></i>
-                                        <span>Nhận việc</span>
-                                        </button>
-                                        <button class="btn btn-outline-primary me-1">
-                                            <i class="fa-light fa-arrow-up-right-from-square"></i>
-                                        <span>Xem chi tiết</span>
-                                        </button>
-                                        <button class="btn btn-outline-warning me-1">
-                                            <i class="fa-light fa-reply"></i>
-                                        <span>Trả lời</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="chatting-job">
-                                <div class="chatting-job-alert-row">
-                                    <i class="fa-light fa-check-to-slot"></i>
-                                    <span class="fw-bolder">MNV012  -  Trần Bích Phượng</span>
-                                    <span class="fw-semibold">Đã nhận việc bạn giao</span>
-                                    <a href="#">Chi tiết</a>
-                                </div>
-                                <div class="chatting-job-alert-row">
-                                    <i class="fa-light fa-check-to-slot"></i>
-                                    <span class="fw-bolder">MNV012  -  Trần Bích Phượng</span>
-                                    <span class="fw-semibold">Đã mở lại công việc việc bạn giao</span>
-                                    <a href="#">Chi tiết</a>
-                                </div>
-                                <div class="chatting-job-alert-row">
-                                    <i class="fa-light fa-check-to-slot"></i>
-                                    <span class="fw-bolder">MNV012  -  Trần Bích Phượng</span>
-                                    <span class="fw-semibold">Đã hoàn thành công việc việc bạn giao</span>
-                                    <a href="#">Chi tiết</a>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                     <div class="chat-footer">
@@ -1792,6 +1734,18 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="line-box-aside"></div>
+                            <div class="chat-setting-row ">
+                                <i class="fa-light fa-tag "></i>
+
+                                <span>Thẻ phân loại</span>
+                                <span class="ms-auto text-gray">Công việc</span>
+                            </div>
+                            <div class="chat-setting-row text-main">
+
+                                <i class="fa-light fa-trash"></i>
+                                <span>Xóa lịch sử trò chuyện</span>
+                            </div>
                         </div>
                     </div>
                 </aside>
@@ -2137,9 +2091,9 @@
                                 <div class="create-job-multi-user-row">
                                     <div class="select2-label-top">
                                         <div class="label">Người giao việc</div>
-                                        <select name="" id="" class="select2-gv form-select" multiple>
-                                                <option value="">Nguyễn Thị Bích</option>
-                                                <option value="">Chọn ca</option>
+                                        <select name="" id="" class="select2-multi form-select" multiple>
+                                                <option value="" selected>Nguyễn Thị Bích</option>
+                                                <option value="" selected>Nguyễn Hiên</option>
                                                 <option value="">Chọn ca</option>
                                                 <option value="">Chọn ca</option>
                                             </select>
@@ -2157,11 +2111,44 @@
                                     </div>
                                 </div>
                                 <div class="create-job-multi-user-row">
+                                    <div class="select2-label-top">
+                                        <div class="label">Dự án</div>
+                                        <select name="" id="" class="select2-gv form-select">
+                                                <option value="">--Tất cả--</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="select2-label-top">
+                                        <div class="label">Gói thầu</div>
+                                        <select name="" id="" class="select2-gv form-select">
+                                                <option value="">--Tất cả--</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="select2-label-top">
+                                        <div class="label">Hạng mục</div>
+                                        <select name="" id="" class="select2-gv form-select">
+                                                <option value="">--Tất cả--</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <!-- <div class="create-job-multi-user-row">
                                     <div class="input-label-body">
                                         <span>Dự án</span>
                                         <input type="text" placeholder="Tên dự án" class="form-control">
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="create-job-multi-user-row">
                                     <div class="input-label-body quick-search">
                                         <span>Công văn</span>
@@ -2182,23 +2169,31 @@
                                         <i class="fa-light fa-user-plus text-link"></i>
                                     </div>
                                 </div>
-                                <div class="create-job-multi-user-row">
-                                    <div class="input-label-body">
-                                        <span>Địa điểm</span>
-                                        <input type="text" placeholder="Địa điểm" class="form-control">
+                                <div class="row" style="margin-top: -15px;">
+                                    <div class="col-12 col-md-7">
+                                        <div class="create-job-multi-user-row">
+                                            <div class="input-label-body">
+                                                <span>Địa điểm</span>
+                                                <input type="text" placeholder="Địa điểm" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-5">
+                                        <div class="create-job-multi-user-row">
+                                            <div class="select2-label-top">
+                                                <div class="label">Xe</div>
+                                                <select name="" id="" class="select2-gv form-select">
+                                                        <option value="">Chọn xe</option>
+                                                        <option value="">Chọn ca</option>
+                                                        <option value="">Chọn ca</option>
+                                                        <option value="">Chọn ca</option>
+                                                    </select>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="create-job-multi-user-row">
-                                    <div class="select2-label-top">
-                                        <div class="label">Xe</div>
-                                        <select name="" id="" class="select2-gv form-select">
-                                                <option value="">Chọn xe</option>
-                                                <option value="">Chọn ca</option>
-                                                <option value="">Chọn ca</option>
-                                                <option value="">Chọn ca</option>
-                                            </select>
-                                    </div>
-                                </div>
+
+
                             </div>
                         </div>
                     </div>
@@ -2362,6 +2357,9 @@
         $(document).ready(function() {
 
             $('.select2-gv').select2({
+                dropdownParent: $('#giaoviec')
+            });
+            $('.select2-multi').select2({
                 dropdownParent: $('#giaoviec')
             });
             $('body').on("click", ".messger-sort-item.item-1 .dropdown-menu", function(e) {

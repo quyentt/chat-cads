@@ -1,0 +1,2696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1">
+    <title>Website</title>
+    <link rel="stylesheet" href="../assets/select2/css/select2.min.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css">
+
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+
+
+</head>
+
+<body>
+
+    <div class="chat-wrap">
+        <div class="chat-sidebar" style="flex:0 0 380px;">
+            <div class="chat-main-tab">
+                <a href="" class="nav-tab-logo">
+                    <img src="../assets/images/logo-cads.jpeg">
+                </a>
+                <div class="nav-tab-top">
+                    <div class="item" title="Lọc">
+                        <div class="filters">
+                            <i class="fa-light fa-filters"></i>
+                            <span>Lọc</span>
+                        </div>
+                    </div>
+                    <div class="item active" title="Tin nhắn">
+                        <div class="has-nofi">
+                            <i class="fa-light fa-messages"></i>
+                        </div>
+                    </div>
+                    <div class="item" title="Cuộc gọi">
+                        <div class="has-nofi">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none">
+                                <path id="Vector" d="M23.5 11C23.22 11 23 10.77 23 10.5C23 5.26 18.73 1 13.5 1C13.22 1 13 0.77 13 0.5C13 0.22 13.22 0 13.5 0C19.29 0 24 4.7 24 10.5C24 10.77 23.77 11 23.5 11ZM20 10.5C20 6.91 17.08 4 13.5 4C13.22 4 13 4.22 13 4.5C13 4.77 13.22 5 13.5 5C16.53 5 19 7.46 19 10.5C19 10.77 19.22 11 19.5 11C19.77 11 20 10.77 20 10.5ZM22.23 22.27L23.21 21.14C23.72 20.63 24 19.96 24 19.24C24 18.52 23.72 17.84 23.16 17.29L20.71 15.42C19.66 14.37 17.96 14.37 16.91 15.42L15.38 16.91C11.7 15.41 8.7 12.41 7.08 8.61L8.57 7.08C9.62 6.04 9.62 4.33 8.61 3.33L6.65 0.79C5.64 -0.23 3.84 -0.21 2.88 0.76L1.7 1.79C0.6 2.88 0 4.37 0 5.97C0 13.72 10.27 24 18.02 24C19.62 24 21.11 23.39 22.23 22.27ZM5.9 1.44L7.86 3.98C8.52 4.64 8.52 5.72 7.86 6.38L6.14 8.15C6 8.29 5.96 8.5 6.03 8.68C7.76 12.99 11.14 16.37 15.32 17.96C15.5 18.03 15.71 17.99 15.84 17.85L17.61 16.13C17.61 16.13 17.61 16.13 17.61 16.13C18.25 15.49 19.32 15.45 20.05 16.17L22.5 18.04C23.16 18.7 23.16 19.77 22.48 20.46L21.5 21.58C20.59 22.49 19.35 23 18.02 23C10.86 23 1 13.13 1 5.97C1 4.64 1.5 3.4 2.38 2.52L3.56 1.49C3.89 1.15 4.34 0.99 4.77 0.99C5.19 0.99 5.6 1.14 5.9 1.44L5.9 1.44Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                           </svg>
+                        </div>
+                    </div>
+                    <div class="item" title="Hộp thư">
+                        <div class="has-nofi">
+                            <i class="fa-light fa-envelope-open-text"></i>
+                            <span>9+</span>
+                        </div>
+                    </div>
+                    <div class="item" title="title">
+                        <div class="has-nofi">
+                            <i class="fa-light fa-low-vision"></i>
+                        </div>
+                    </div>
+                    <div class="item" title="title">
+                        <div class="has-nofi">
+                            <i class="fa-light fa-calendar-days"></i>
+                        </div>
+                    </div>
+                    <div class="item" title="title">
+                        <div class="has-nofi">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none">
+                              
+                                <g>
+                                    <path id="Vector" d="M24 20.6C24 21.92 22.92 23 21.6 23L21 23L21 23.5C21 23.77 20.77 24 20.5 24C20.22 24 20 23.77 20 23.5L20 23L19.5 23C18.12 23 17 21.87 17 20.5C17 20.22 17.22 20 17.5 20C17.77 20 18 20.22 18 20.5C18 21.32 18.67 22 19.5 22L21.6 22C22.37 22 23 21.37 23 20.6C23 19.91 22.51 19.34 21.83 19.23L19 18.75C17.84 18.56 17 17.57 17 16.39C17 15.07 18.07 14 19.39 14L20 14L20 13.5C20 13.22 20.22 13 20.5 13C20.77 13 21 13.22 21 13.5L21 14L21.5 14C22.87 14 24 15.12 24 16.5C24 16.77 23.77 17 23.5 17C23.22 17 23 16.77 23 16.5C23 15.67 22.32 15 21.5 15L19.39 15C18.62 15 18 15.62 18 16.39C18 17.08 18.49 17.65 19.16 17.77L21.99 18.24C23.15 18.43 24 19.42 24 20.6ZM18 6C18 9.3 15.3 12 12 12C8.69 12 6 9.3 6 6C6 2.69 8.69 0 12 0C15.3 0 18 2.69 18 6ZM17 6C17 3.24 14.75 1 12 1C9.24 1 7 3.24 7 6C7 8.75 9.24 11 12 11C14.75 11 17 8.75 17 6ZM14.64 14.39C13.79 14.13 12.9 14 12 14C7.03 14 3 18.03 3 23L3 23.5C3 23.77 3.22 24 3.5 24C3.77 24 4 23.77 4 23.5L4 23C4 18.58 7.58 15 12 15C12.8 15 13.59 15.11 14.35 15.35C14.61 15.43 14.89 15.28 14.97 15.02C15.05 14.75 14.91 14.47 14.64 14.39L14.64 14.39Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="item" title="title">
+                        <div class="has-nofi">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.000000" height="25.000000" viewBox="0 0 25 25" fill="none">
+
+                                <path id="Vector" d="M8.81 7.58L12.03 0.96C12.09 0.82 12.22 0.75 12.37 0.75C12.51 0.75 12.64 0.82 12.7 0.96L15.92 7.58C16.03 7.81 16.24 7.96 16.49 7.99L23.67 9.06C23.81 9.08 23.93 9.17 23.97 9.31C24.01 9.45 23.98 9.59 23.87 9.69L18.67 14.86C18.5 15.03 18.42 15.27 18.46 15.51L19.69 22.81C19.71 22.95 19.66 23.09 19.54 23.17C19.42 23.26 19.27 23.27 19.14 23.2L12.72 19.77C12.5 19.65 12.23 19.65 12.01 19.77L5.59 23.2C5.46 23.27 5.31 23.26 5.2 23.17C5.09 23.09 5.02 22.95 5.05 22.81L6.28 15.51C6.32 15.27 6.24 15.02 6.06 14.86L0.86 9.69L0.33 10.22L0.86 9.69C0.75 9.59 0.72 9.44 0.76 9.31C0.8 9.17 0.92 9.07 1.06 9.05L8.24 7.99C8.49 7.96 8.7 7.8 8.81 7.58ZM18.79 23.86C19.17 24.06 19.63 24.04 19.97 23.78C20.32 23.53 20.5 23.1 20.43 22.68L19.2 15.39L24.41 10.22C24.71 9.92 24.82 9.48 24.69 9.08C24.55 8.67 24.2 8.38 23.78 8.31L16.59 7.25L13.38 0.63C13.19 0.24 12.8 0 12.37 0C11.93 0 11.54 0.24 11.35 0.63L8.14 7.25L0.95 8.32C0.53 8.38 0.18 8.67 0.05 9.08C-0.08 9.49 0.03 9.93 0.33 10.23L5.54 15.39L4.31 22.68C4.24 23.1 4.41 23.53 4.76 23.78C5.11 24.04 5.57 24.06 5.95 23.86L12.37 20.43L18.79 23.86L18.79 23.86Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                <path id="Vector" d="M12.03 0.96C12.09 0.82 12.22 0.75 12.37 0.75C12.51 0.75 12.64 0.82 12.7 0.96L15.92 7.58C16.03 7.81 16.24 7.96 16.49 7.99L23.67 9.06C23.81 9.08 23.93 9.17 23.97 9.31C24.01 9.45 23.98 9.59 23.87 9.69L18.67 14.86C18.5 15.03 18.42 15.27 18.46 15.51L19.69 22.81C19.71 22.95 19.66 23.09 19.54 23.17C19.42 23.26 19.27 23.27 19.14 23.2L12.72 19.77C12.5 19.65 12.23 19.65 12.01 19.77L5.59 23.2C5.46 23.27 5.31 23.26 5.2 23.17C5.09 23.09 5.02 22.95 5.05 22.81L6.28 15.51C6.32 15.27 6.24 15.02 6.06 14.86L0.86 9.69L0.33 10.22L0.86 9.69C0.75 9.59 0.72 9.44 0.76 9.31C0.8 9.17 0.92 9.07 1.06 9.05L8.24 7.99C8.49 7.96 8.7 7.8 8.81 7.58L12.03 0.96ZM19.97 23.78C20.32 23.53 20.5 23.1 20.43 22.68L19.2 15.39L24.41 10.22C24.71 9.92 24.82 9.48 24.69 9.08C24.55 8.67 24.2 8.38 23.78 8.31L16.59 7.25L13.38 0.63C13.19 0.24 12.8 0 12.37 0C11.93 0 11.54 0.24 11.35 0.63L8.14 7.25L0.95 8.32C0.53 8.38 0.18 8.67 0.05 9.08C-0.08 9.49 0.03 9.93 0.33 10.23L5.54 15.39L4.31 22.68C4.24 23.1 4.41 23.53 4.76 23.78C5.11 24.04 5.57 24.06 5.95 23.86L12.37 20.43L18.79 23.86L18.79 23.86C19.17 24.06 19.63 24.04 19.97 23.78Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="0.300000"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-tab-top nav-tab-bottom">
+                    <div class="item" title="title">
+                        <div class="has-nofi">
+                            <i class="fa-light  fa-rectangle-history-circle-user"></i>
+                        </div>
+                    </div>
+                    <div class="item" title="title">
+                        <div class="has-nofi">
+                            <i class="fa-light fa-check-to-slot"></i>
+                        </div>
+                    </div>
+                    <div class="item" title="title">
+                        <div class="has-nofi">
+                            <i class="fa-light fa-cog"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-compact">
+                <div class="search-contact">
+                    <div class="search-inputs">
+                        <input size="1" type="text" placeholder="Tìm bạn, nhóm chat">
+                        <button class="btn"><i class="fa-light fa-search"></i></button>
+                    </div>
+                    <button class="btn" title="Tạo nhóm chat" data-bs-toggle="modal" data-bs-target="#taonhomchat"><i class="fa-light fa-users-medical"></i></button>
+                    <!-- <div class="btn" title="Thêm bạn"><i class="fa-light fa-message-plus"></i></div> -->
+                </div>
+                <div class="d-flex justify-content-between">
+                    <div class="messager-tab">
+                        <div class="messger-tab-item active">
+                            <a href="#">Tất cả</a>
+                        </div>
+                        <div class="messger-tab-item">
+                            <a href="#">Chưa đọc</a>
+                        </div>
+                    </div>
+                    <div class="message-sort position-relative">
+                        <div class="messger-sort-item item-1">
+                            <a href="#" data-bs-toggle="dropdown">
+                                <span>Phân loại</span>
+                                <i class="fa-light fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu tag-dropdown-menu" style="min-width: 200px;">
+                                <li class="label">Theo thẻ phân loại</li>
+                                <li>
+                                    <label class="check-custom square">
+                                        <input type="checkbox" name="">
+                                        <span><i class="fa-light fa-check"></i></span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 12 13" fill="none">
+                                            <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="yellow"></path>
+                                            </svg>
+                                        <p class="m-0">CSKH</p>
+                                    </label>
+                                </li>
+                                <li class="">
+                                    <label class="check-custom square">
+                                        <input type="checkbox" name="">
+                                        <span><i class="fa-light fa-check"></i></span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 12 13" fill="none">
+                                            <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="red"></path>
+                                            </svg>
+                                        <p class="m-0">Kỹ thuật PC</p>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="check-custom square">
+                                        <input type="checkbox" name="">
+                                        <span><i class="fa-light fa-check"></i></span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 12 13" fill="none">
+                                            <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="yellow"></path>
+                                            </svg>
+                                        <p class="m-0">CSKH</p>
+                                    </label>
+                                </li>
+                                <li class="">
+                                    <label class="check-custom square">
+                                        <input type="checkbox" name="">
+                                        <span><i class="fa-light fa-check"></i></span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 12 13" fill="none">
+                                            <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="red"></path>
+                                            </svg>
+                                        <p class="m-0">Kỹ thuật PC</p>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="check-custom square">
+                                        <input type="checkbox" name="">
+                                        <span><i class="fa-light fa-check"></i></span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 12 13" fill="none">
+                                            <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="yellow"></path>
+                                            </svg>
+                                        <p class="m-0">CSKH</p>
+                                    </label>
+                                </li>
+                                <li class="">
+                                    <label class="check-custom square">
+                                        <input type="checkbox" name="">
+                                        <span><i class="fa-light fa-check"></i></span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 12 13" fill="none">
+                                            <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="red"></path>
+                                            </svg>
+                                        <p class="m-0">Kỹ thuật PC</p>
+                                    </label>
+                                </li>
+                                <li>
+                                    <a href="#tag_manager" data-bs-toggle="modal" class="">Quản lý thẻ phân loại</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="messger-sort-item">
+                            <button class="btn" data-bs-toggle="dropdown">
+                                <i class="fa-light fa-ellipsis"></i>
+                            </button>
+                            <ul class="dropdown-menu tag-dropdown-menu" style="min-width: 200px;">
+                                <li class="border-0">Đánh dấu đã đọc</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="messager-list">
+                    <div class="messager-item has-new-message">
+                        <div class="image-group single">
+
+                            <img src="../assets/images/notiimage.jpg" alt="">
+
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Thông báo chung</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Admin: Thông báo thời gian nghỉ lễ 30/4 và quốc tế lao động 1/5
+                                </div>
+                                <div class="more-count">
+                                    <div class="new-massage-count">5+</div>
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messager-item has-new-message">
+                        <div class="image-group group-4-img">
+                            <span class="more">5+</span>
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Nhóm công ty</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Mr Quyen: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus harum, temporibus sunt optio modi, earum ex fuga cum hic a natus nobis. Natus, ratione voluptatum. Ut doloremque soluta voluptatibus.
+                                </div>
+                                <div class="more-count">
+                                    <div class="new-massage-count">5+</div>
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messager-item active">
+                        <div class="image-group group-3-img">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Nhóm công ty</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Mr Quyen: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus harum, temporibus sunt optio modi, earum ex fuga cum hic a natus nobis. Natus, ratione voluptatum. Ut doloremque soluta voluptatibus.
+                                </div>
+                                <div class="more-count">
+
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messager-item">
+                        <div class="image-group group-2-img">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Nhóm công ty</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Mr Quyen: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus harum, temporibus sunt optio modi, earum ex fuga cum hic a natus nobis. Natus, ratione voluptatum. Ut doloremque soluta voluptatibus.
+                                </div>
+                                <div class="more-count">
+
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messager-item">
+                        <div class="image-group single">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Nhóm công ty</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Mr Quyen: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus harum, temporibus sunt optio modi, earum ex fuga cum hic a natus nobis. Natus, ratione voluptatum. Ut doloremque soluta voluptatibus.
+                                </div>
+                                <div class="more-count">
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messager-item">
+                        <div class="image-group single">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Nhóm công ty</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Mr Quyen: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus harum, temporibus sunt optio modi, earum ex fuga cum hic a natus nobis. Natus, ratione voluptatum. Ut doloremque soluta voluptatibus.
+                                </div>
+                                <div class="more-count">
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messager-item">
+                        <div class="image-group single">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Nhóm công ty</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Mr Quyen: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus harum, temporibus sunt optio modi, earum ex fuga cum hic a natus nobis. Natus, ratione voluptatum. Ut doloremque soluta voluptatibus.
+                                </div>
+                                <div class="more-count">
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messager-item">
+                        <div class="image-group single">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Nhóm công ty</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Mr Quyen: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus harum, temporibus sunt optio modi, earum ex fuga cum hic a natus nobis. Natus, ratione voluptatum. Ut doloremque soluta voluptatibus.
+                                </div>
+                                <div class="more-count">
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messager-item">
+                        <div class="image-group single">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Nhóm công ty</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Mr Quyen: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus harum, temporibus sunt optio modi, earum ex fuga cum hic a natus nobis. Natus, ratione voluptatum. Ut doloremque soluta voluptatibus.
+                                </div>
+                                <div class="more-count">
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messager-item">
+                        <div class="image-group single">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Nhóm công ty</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Mr Quyen: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus harum, temporibus sunt optio modi, earum ex fuga cum hic a natus nobis. Natus, ratione voluptatum. Ut doloremque soluta voluptatibus.
+                                </div>
+                                <div class="more-count">
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messager-item">
+                        <div class="image-group single">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Nhóm công ty</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Mr Quyen: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus harum, temporibus sunt optio modi, earum ex fuga cum hic a natus nobis. Natus, ratione voluptatum. Ut doloremque soluta voluptatibus.
+                                </div>
+                                <div class="more-count">
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messager-item">
+                        <div class="image-group single">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Nhóm công ty</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Mr Quyen: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus harum, temporibus sunt optio modi, earum ex fuga cum hic a natus nobis. Natus, ratione voluptatum. Ut doloremque soluta voluptatibus.
+                                </div>
+                                <div class="more-count">
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messager-item">
+                        <div class="image-group single">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Nhóm công ty</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Mr Quyen: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus harum, temporibus sunt optio modi, earum ex fuga cum hic a natus nobis. Natus, ratione voluptatum. Ut doloremque soluta voluptatibus.
+                                </div>
+                                <div class="more-count">
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messager-item">
+                        <div class="image-group single">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Nhóm công ty</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Mr Quyen: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus harum, temporibus sunt optio modi, earum ex fuga cum hic a natus nobis. Natus, ratione voluptatum. Ut doloremque soluta voluptatibus.
+                                </div>
+                                <div class="more-count">
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="messager-item">
+                        <div class="image-group single">
+                            <img src="../assets/images/user-avatar.jpg" alt="">
+                        </div>
+                        <div class="message-sumany">
+                            <div class="row-top">
+                                <div class="name">Nhóm công ty</div>
+                                <div class="time-send">
+                                    10h
+                                </div>
+                            </div>
+                            <div class="row-bottom">
+                                <div class="new-message">
+                                    Mr Quyen: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus harum, temporibus sunt optio modi, earum ex fuga cum hic a natus nobis. Natus, ratione voluptatum. Ut doloremque soluta voluptatibus.
+                                </div>
+                                <div class="more-count">
+                                    <div class="more">
+                                        <div class="button btn" data-bs-toggle="dropdown">
+                                            <i class="fa-light fa-ellipsis"></i>
+                                        </div>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-thumb-tack"></i>
+                                                    <span>Ghim trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-tag"></i>
+                                                    <span>Phân loại</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-message-check"></i>
+                                                    <span>Đánh dấu đã đọc</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-users-medical"></i>
+                                                    <span>Thêm vào nhóm</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-bell-slash"></i>
+                                                    <span>Tắt thông báo</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-eye-slash"></i>
+                                                    <span>Ẩn trò chuyện</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <i class="fa-light fa-trash-can-xmark"></i>
+                                                    <span>Xóa trò chuyện</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="resizer-x"></div>
+        <main>
+            <div class="chat-main-nav">
+                <div class="chat-back"><i class="fa-light fa-long-arrow-left"></i></div>
+                <div class="user-dropdown">
+                    <div class="user-nav-label" data-bs-toggle="dropdown">
+                        <img src="../assets/images/avatar.svg" alt="">
+                        <div>
+                            <div class="name">Nguyễn Thị Bích</div>
+                            <div class="position">Chăm sóc khách hàng</div>
+                        </div>
+                        <i class="fa-light fa-chevron-down"></i>
+                    </div>
+                    <!-- <ul class="dropdown-menu user-dropdown-nenu">
+                        <li>
+                            <a href="#">
+                                <i class="fa-light fa-folder-cog"></i>
+                                <span>Hồ sơ của bạn</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-light fa-cogs"></i>
+                                <span>Cài đặt</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-light fa-sign-in"></i>
+                                <span>Đăng xuất</span>
+                            </a>
+                        </li>
+                    </ul> -->
+                </div>
+
+            </div>
+            <div class="chat-content-wrap">
+                <div class="chat-content">
+                    <div class="chat-content-top">
+                        <div class="user-info">
+                            <div class="avatar">
+                                <img src="../assets/images/avatar.svg" alt="">
+                            </div>
+                            <div class="meta">
+                                <div class="user-name">Bảo Thế</div>
+                                <div class="user-status">Vừa online - Kỹ thuật</div>
+                            </div>
+                        </div>
+                        <div class="action-group">
+                            <div class="tag-dropdown">
+                                <div class="tag-dropdown-label" data-bs-toggle="dropdown">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                    <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="#768286"/>
+                                    </svg>
+                                    <span>Gắn tag</span>
+                                    <i class="fa-light fa-chevron-down"></i>
+                                </div>
+                                <ul class="dropdown-menu tag-dropdown-menu">
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                            <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="yellow"/>
+                                            </svg>
+                                        <span>CSKH</span>
+                                    </li>
+                                    <li class="active">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                            <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="red"/>
+                                            </svg>
+                                        <span>Kỹ thuật PC</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+                                            <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="blue"/>
+                                            </svg>
+                                        <span>Kỹ thuật PM</span>
+                                    </li>
+                                    <li>
+                                        <a href="#tag_manager" data-bs-toggle="modal" class="">Quản lý thẻ phân loại</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="btn btn-search"><i class="fa-light fa-search"></i></button>
+                        <button class="btn btn-call"><i class="fa-light fa-phone"></i></button>
+                        <button class="btn btn-chat-info-toggle"><i class="fa-light fa-right-from-bracket"></i></button>
+                    </div>
+                    <div class="chat-body">
+                        <div class="chat-date-wrap">
+                            <div class="date"><span>T5 21:05</span></div>
+                            <div class="user-chatting">
+                                <div class="avatar">
+                                    <img src="../assets/images/user-avatar.jpg" alt="">
+                                </div>
+                                <div class="user-chatting-content">
+                                    <div class="user-chatting-row">
+
+                                        <div class="chatting-row-emoji">
+                                            <div class="lable">
+                                                <img class="curent" src="../assets/images/icon/like-ico.svg" alt="">
+                                                <img class="hover" src="../assets/images/icon/like-ico-hover.svg" alt="">
+                                            </div>
+                                            <div class="emoji-list">
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-1.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-2.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-3.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-4.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-5.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-6.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="chatting-row-action">
+                                            <div class="item">
+                                                <img src="../assets/images/icon/share-ico.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/reply-ico.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/create-job-ico.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/more-ico.svg" alt="">
+                                            </div>
+                                        </div>
+                                        Chào bạn, chúng tôi có thể giúp gì được cho bạn?
+                                    </div>
+                                    <div class="user-chatting-row">
+                                        <div class="chatting-row-emoji">
+                                            <div class="lable">
+                                                <img class="curent" src="../assets/images/icon/like-ico.svg" alt="">
+                                                <img class="hover" src="../assets/images/icon/like-ico-hover.svg" alt="">
+                                            </div>
+                                            <div class="emoji-list">
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-1.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-2.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-3.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-4.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-5.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-6.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="chatting-row-action">
+                                            <div class="item">
+                                                <img src="../assets/images/icon/share-ico.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/reply-ico.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/create-job-ico.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/more-ico.svg" alt="">
+                                            </div>
+                                        </div>
+                                        Em chào Anh/chị, mình đang cần hỗ trợ vấn đề gì ạ?
+                                    </div>
+                                    <div class="user-chatting-row">
+                                        <div class="chatting-row-emoji">
+                                            <div class="lable">
+                                                <img class="curent" src="../assets/images/icon/like-ico.svg" alt="">
+                                                <img class="hover" src="../assets/images/icon/like-ico-hover.svg" alt="">
+                                            </div>
+                                            <div class="emoji-list">
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-1.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-2.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-3.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-4.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-5.svg" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img src="../assets/images/icon/emoji-6.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="chatting-row-action">
+                                            <div class="item">
+                                                <img src="../assets/images/icon/share-ico.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/reply-ico.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/create-job-ico.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/more-ico.svg" alt="">
+                                            </div>
+                                        </div>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quos omnis eligendi, sapiente est veniam ut dolores quia quasi error modi deserunt repellat soluta earum labore voluptatum magni, animi praesentium.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-chatting">
+                                <div class="my-chatting-row">
+                                    <div class="chatting-row-emoji">
+                                        <div class="lable">
+                                            <img class="curent" src="../assets/images/icon/like-ico.svg" alt="">
+                                            <img class="hover" src="../assets/images/icon/like-ico-hover.svg" alt="">
+                                        </div>
+                                        <div class="emoji-list">
+                                            <div class="item">
+                                                <img src="../assets/images/icon/emoji-1.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/emoji-2.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/emoji-3.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/emoji-4.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/emoji-5.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/emoji-6.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="chatting-row-action">
+                                        <div class="item">
+                                            <img src="../assets/images/icon/share-ico.svg" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../assets/images/icon/reply-ico.svg" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../assets/images/icon/create-job-ico.svg" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../assets/images/icon/more-ico.svg" alt="">
+                                        </div>
+                                    </div>
+                                    ok bạn!
+                                </div>
+                                <div class="my-chatting-row">
+                                    <div class="chatting-row-emoji">
+                                        <div class="lable">
+                                            <img class="curent" src="../assets/images/icon/like-ico.svg" alt="">
+                                            <img class="hover" src="../assets/images/icon/like-ico-hover.svg" alt="">
+                                        </div>
+                                        <div class="emoji-list">
+                                            <div class="item">
+                                                <img src="../assets/images/icon/emoji-1.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/emoji-2.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/emoji-3.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/emoji-4.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/emoji-5.svg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/icon/emoji-6.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="chatting-row-action">
+                                        <div class="item">
+                                            <img src="../assets/images/icon/share-ico.svg" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../assets/images/icon/reply-ico.svg" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../assets/images/icon/create-job-ico.svg" alt="">
+                                        </div>
+                                        <div class="item">
+                                            <img src="../assets/images/icon/more-ico.svg" alt="">
+                                        </div>
+                                    </div>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi illum esse quas odit? Natus magnam cum voluptatum officiis officia quibusdam consequuntur laborum sapiente aperiam accusamus nostrum exercitationem, incidunt necessitatibus cumque.
+                                </div>
+                            </div>
+                            <div class="chatting-job">
+                                <div class="chatting-job-btn">
+                                    <button class="btn btn-main px-5" data-bs-toggle="modal" data-bs-target="#giaoviec">
+                                        <i class="fa-light fa-check-to-slot me-2"></i>
+                                        <span class="fw-bold">Tạo việc</span>
+                                    </button>
+
+                                </div>
+                            </div>
+                            <div class="my-chatting">
+                                <div class="chatting-job-created">
+                                    <div class="head">
+                                        <div>ID công việc: ID00978</div>
+                                        <div>Người tạo: Trần Thế Quyền - ID00978</div>
+                                    </div>
+                                    <div class="center">
+                                        <div class="job-content">
+                                            Kiểm tra lại phần mềm cho khách hàng trong danh sách mới
+                                        </div>
+                                        <div class="job-date">
+                                            <div>Bắt đầu: 10/03/2024 10:00</div>
+                                            <div>Kết thúc: 10/03/2024 10:00</div>
+                                        </div>
+                                    </div>
+                                    <div class="foot">
+                                        <button class="btn btn-main">
+                                            <i class="fa-light fa-briefcase me-1"></i>
+                                        <span>Nhận việc</span>
+                                        </button>
+                                        <button class="btn btn-outline-primary me-1">
+                                            <i class="fa-light fa-arrow-up-right-from-square"></i>
+                                        <span>Xem chi tiết</span>
+                                        </button>
+                                        <button class="btn btn-outline-warning me-1">
+                                            <i class="fa-light fa-reply"></i>
+                                        <span>Trả lời</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chatting-job">
+                                <div class="chatting-job-alert-row">
+                                    <i class="fa-light fa-check-to-slot"></i>
+                                    <span class="fw-bolder">MNV012  -  Trần Bích Phượng</span>
+                                    <span class="fw-semibold">Đã nhận việc bạn giao</span>
+                                    <a href="#">Chi tiết</a>
+                                </div>
+                                <div class="chatting-job-alert-row">
+                                    <i class="fa-light fa-check-to-slot"></i>
+                                    <span class="fw-bolder">MNV012  -  Trần Bích Phượng</span>
+                                    <span class="fw-semibold">Đã mở lại công việc việc bạn giao</span>
+                                    <a href="#">Chi tiết</a>
+                                </div>
+                                <div class="chatting-job-alert-row">
+                                    <i class="fa-light fa-check-to-slot"></i>
+                                    <span class="fw-bolder">MNV012  -  Trần Bích Phượng</span>
+                                    <span class="fw-semibold">Đã hoàn thành công việc việc bạn giao</span>
+                                    <a href="#">Chi tiết</a>
+                                </div>
+                                <div class="chatting-job-alert-row">
+                                    <div class="user">
+                                        <img src="../assets/images/avatar.svg" alt=""> Đặng Hoàng Anh
+                                    </div>
+                                    đã xóa
+                                    <div class="user">
+                                        <img src="../assets/images/avatar.svg" alt=""> Ngọc
+                                    </div>
+                                    Khỏi nhóm chat
+                                </div>
+                                <div class="chatting-job-alert-row">
+                                    <div class="user">
+                                        <img src="../assets/images/avatar.svg" alt=""> Đặng Hoàng Anh
+                                    </div>
+                                    đã thêm
+                                    <div class="user">
+                                        <img src="../assets/images/avatar.svg" alt=""> Ngọc
+                                    </div>
+                                    vào nhóm chat
+                                </div>
+                            </div>
+                            <p class="text-main fw-medium text-center">...có người đang chat</p>
+                        </div>
+                    </div>
+                    <div class="chat-footer">
+                        <div class="chat-footer-wrap">
+                            <div class="chat-footer-action">
+                                <div class="action-show">
+                                    <button class="btn btn-tagname" title="Tag name">
+                                        <span>@</span>
+                                    </button>
+                                    <button class="btn btn-sticker" title="Gửi sticker">
+                                        <i class="fa-light fa-smile"></i>
+                                    </button>
+                                    <button class="btn btn-addimage text-gr" title="Gửi hình ảnh">
+                                        <i class="fa-light fa-image"></i>
+                                    </button>
+                                    <button class="btn btn-add-file" title="Đính kèm file">
+                                        <i class="fa-light fa-paperclip"></i>
+                                    </button>
+                                    <button class="btn btn-add-alert" title="Tạo nhắc hẹn">
+                                        <i class="fa-light fa-calendar-clock"></i>
+                                    </button>
+                                    <button class="btn btn-todo" title="Giao việc" data-bs-toggle="modal" data-bs-target="#giaoviec">
+                                        <i class="fa-light fa-check-to-slot"></i>
+                                        <span>Giao việc</span>
+                                    </button>
+                                    <button class="btn btn-takescreen" title="Chụp ảnh màn hình">
+                                        <i class="fa-light fa-camera-viewfinder"></i>
+                                        <span>Chụp ảnh màn hình</span>
+                                    </button>
+                                    <button class="btn btn-changefont" title="Định dạng tin nhắn">
+                                        <i class="fa-light fa-font-case"></i>
+                                        <span>Định dạng tin nhắn</span>
+                                    </button>
+                                    <button class="btn btn-quickmessage" title="Chèn tin nhắn nhanh">
+                                        <i class="fa-light fa-message-exclamation"></i>
+                                    </button>
+                                    <button class="btn btn-godrive" title="Gửi file từ goole drive">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.000000" height="28.000000" viewBox="0 0 32 28" fill="none">
+                                    
+                                            <path id="Vector" d="M31.64 18.57L20.87 0.26C20.76 0.1 20.6 0 20.38 0L10.69 0C10.48 0 10.31 0.1 10.21 0.21L-0.02 17.44C-0.08 17.6 -0.13 17.82 -0.02 17.98L4.75 27.52C4.75 27.59 4.78 27.66 4.82 27.73C4.86 27.79 4.92 27.85 4.99 27.89C5.08 27.96 5.18 28 5.31 28L26.31 28C26.52 28 26.68 27.89 26.79 27.73L31.64 19.11C31.74 18.95 31.74 18.73 31.64 18.57ZM30.24 18.3L21.24 18.3L15.72 8.43C15.71 8.36 15.68 8.29 15.64 8.23L11.63 1.07L20.06 1.07L30.24 18.3ZM19.99 18.3L10.68 18.3L15.16 9.66L19.99 18.3ZM10.67 1.64L12.86 5.55L14.51 8.56L9.34 18.5C9.33 18.52 9.31 18.55 9.29 18.57L5.3 26.26L1.05 17.76L10.67 1.64ZM25.98 26.92L6.21 26.92L10.12 19.38L20.92 19.38L30.24 19.38L25.98 26.92Z" fill="#3179F0" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                        </svg>
+                                        <span>Gửi file bằng google drive</span>
+                                    </button>
+                                    <button class="btn btn-sendpossition" title="Gửi vị trí">
+                                        <i class="fa-light fa-map-location-dot"></i>
+                                        <span>Gửi vị trí</span>
+                                    </button>
+                                </div>
+
+
+                                <div class="chat-f-action-dropdown">
+                                    <button class="btn btn-action-more" data-bs-toggle="dropdown" title="Thêm tùy chọn">
+                                        <i class="fa-light fa-ellipsis"></i>
+                                    </button>
+                                    <ul class="chat-f-action-menu dropdown-menu">
+
+
+                                        <li>
+                                            <button class="btn btn-sendpossition" title="Gửi vị trí">
+                                                <i class="fa-light fa-map-location-dot"></i>
+                                                <span>Gửi vị trí</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn btn-godrive" title="Gửi file từ goole drive">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.000000" height="28.000000" viewBox="0 0 32 28" fill="none">
+                                            
+                                                    <path id="Vector" d="M31.64 18.57L20.87 0.26C20.76 0.1 20.6 0 20.38 0L10.69 0C10.48 0 10.31 0.1 10.21 0.21L-0.02 17.44C-0.08 17.6 -0.13 17.82 -0.02 17.98L4.75 27.52C4.75 27.59 4.78 27.66 4.82 27.73C4.86 27.79 4.92 27.85 4.99 27.89C5.08 27.96 5.18 28 5.31 28L26.31 28C26.52 28 26.68 27.89 26.79 27.73L31.64 19.11C31.74 18.95 31.74 18.73 31.64 18.57ZM30.24 18.3L21.24 18.3L15.72 8.43C15.71 8.36 15.68 8.29 15.64 8.23L11.63 1.07L20.06 1.07L30.24 18.3ZM19.99 18.3L10.68 18.3L15.16 9.66L19.99 18.3ZM10.67 1.64L12.86 5.55L14.51 8.56L9.34 18.5C9.33 18.52 9.31 18.55 9.29 18.57L5.3 26.26L1.05 17.76L10.67 1.64ZM25.98 26.92L6.21 26.92L10.12 19.38L20.92 19.38L30.24 19.38L25.98 26.92Z" fill="#3179F0" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                                </svg>
+                                                <span>Gửi file bằng google drive</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn btn-quickmessage" title="Chèn tin nhắn nhanh">
+                                                <i class="fa-light fa-message-exclamation"></i>
+                                                <span>Chèn tin nhắn nhanh</span>
+                                            </button>
+                                        </li>
+                                        <li><button class="btn btn-changefont" title="Định dạng tin nhắn">
+                                            <i class="fa-light fa-font-case"></i>
+                                            <span>Định dạng tin nhắn</span>
+                                        </button></li>
+                                        <li>
+                                            <button class="btn btn-takescreen" title="Chụp ảnh màn hình">
+                                                <i class="fa-light fa-camera-viewfinder"></i>
+                                                <span>Chụp ảnh màn hình</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn btn-todo" title="Giao việc" data-bs-toggle="modal" data-bs-target="#giaoviec">
+                                                <i class="fa-light fa-check-to-slot"></i>
+                                                <span>Giao việc</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="chat-footer-input">
+                                <input type="text" placeholder="Hãy viết gì đó">
+                                <button class="btn btn-sendmessage"><i class="fa-light fa-paper-plane-top"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <aside>
+                    <div class="user-chat-info-setting">
+                        <div class="info-right-title">Thông tin hộp thoại</div>
+                        <div class="user-chat-info group-chat-info">
+                            <div class="avatar">
+                                <img src="../assets/images/group-avatar.png" alt="">
+
+                            </div>
+                            <div class="meta">
+                                <div class="name">
+                                    <span>Nhóm thiết kết web</span>
+                                    <a class="name-edit-link">
+                                        <i class="fa-light fa-pen-line"></i>
+                                    </a>
+                                </div>
+                                <div class="info-row">
+                                    <i class="fa-light fa-users"></i>
+                                    <span>Thành viên nhóm: 10</span>
+
+                                </div>
+                                <div class="info-row">
+                                    <i class="fa-light fa-calendar-clock"></i>
+                                    <span>Ngày tạo: 15/01/2024</span>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="chat-group-info-desc">
+                            <div class="label">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.000000" height="21.000000" viewBox="0 0 21 21" fill="none">
+                             
+                                    <path id="Vector" d="M19.13 16.06L17.78 15.61C18.07 15.4 18.31 15.12 18.47 14.8C18.63 14.47 18.72 14.12 18.72 13.76C18.61 10.72 14.24 10.72 14.13 13.76C14.13 14.12 14.22 14.47 14.38 14.8C14.54 15.12 14.78 15.4 15.07 15.61C14.8 15.71 13.61 16.06 13.39 16.21L11.72 15.65C14.01 14.21 12.98 10.58 10.24 10.58C7.5 10.58 6.47 14.21 8.76 15.65L7.1 16.21C6.87 16.06 5.68 15.7 5.42 15.61C5.81 15.32 6.1 14.92 6.25 14.46C6.39 14 6.39 13.5 6.24 13.05C6.09 12.59 5.8 12.18 5.41 11.9C5.02 11.62 4.55 11.46 4.06 11.46C3.58 11.46 3.11 11.62 2.72 11.9C2.33 12.18 2.03 12.59 1.88 13.05C1.73 13.5 1.73 14 1.88 14.46C2.03 14.92 2.32 15.32 2.71 15.61L1.35 16.06C0.96 16.19 0.61 16.44 0.37 16.78C0.13 17.12 -0.01 17.53 0 17.95L0 18.78C0 19 0.08 19.21 0.24 19.37C0.39 19.52 0.6 19.61 0.82 19.61L5.29 19.61C5.31 19.85 5.41 20.07 5.59 20.24C5.76 20.4 5.99 20.49 6.23 20.49L14.25 20.49C14.49 20.49 14.72 20.4 14.89 20.24C15.07 20.07 15.17 19.85 15.18 19.61L19.67 19.61C19.88 19.61 20.1 19.52 20.25 19.37C20.41 19.21 20.49 19 20.49 18.78L20.49 17.95C20.49 17.53 20.36 17.12 20.12 16.78C19.87 16.44 19.53 16.19 19.13 16.06ZM16.42 12.2C16.84 12.2 17.23 12.37 17.52 12.66C17.81 12.95 17.97 13.35 17.97 13.76C17.97 14.17 17.81 14.57 17.52 14.86C17.23 15.15 16.84 15.32 16.42 15.32C16.01 15.32 15.62 15.15 15.33 14.86C15.04 14.57 14.88 14.17 14.88 13.76C14.88 13.35 15.04 12.95 15.33 12.66C15.62 12.37 16.01 12.2 16.42 12.2ZM8.22 13.33C8.3 10.66 12.18 10.66 12.26 13.33C12.18 16.01 8.3 16.01 8.22 13.33ZM4.06 12.2C4.48 12.2 4.87 12.37 5.16 12.66C5.45 12.95 5.61 13.35 5.61 13.76C5.61 14.17 5.45 14.57 5.16 14.86C4.87 15.15 4.48 15.32 4.06 15.32C3.65 15.32 3.26 15.15 2.97 14.86C2.68 14.57 2.52 14.17 2.52 13.76C2.52 13.35 2.68 12.95 2.97 12.66C3.26 12.37 3.65 12.2 4.06 12.2ZM5.29 18.88L0.82 18.88C0.8 18.88 0.77 18.87 0.76 18.85C0.74 18.83 0.73 18.81 0.73 18.78L0.73 17.95C0.73 17.68 0.81 17.43 0.96 17.21C1.12 17 1.34 16.84 1.59 16.75L3.34 16.17C4.19 15.8 5.4 16.39 6.21 16.64C5.88 16.91 5.62 17.25 5.46 17.64C5.3 18.03 5.24 18.46 5.29 18.88ZM14.25 19.76L6.23 19.76C5.96 19.76 6.03 19.42 6.02 19.25C6.02 19.24 6.02 18.52 6.02 18.52C6.02 18.17 6.13 17.84 6.33 17.56C6.53 17.28 6.82 17.07 7.14 16.96L9.31 16.24C9.91 16.04 10.56 16.04 11.16 16.24L13.34 16.96C13.66 17.07 13.95 17.28 14.15 17.56C14.35 17.84 14.46 18.17 14.46 18.52L14.46 19.24C14.45 19.42 14.52 19.76 14.25 19.76ZM19.76 18.78C19.76 18.81 19.75 18.83 19.73 18.85C19.71 18.87 19.69 18.88 19.67 18.88L15.19 18.88C15.24 18.46 15.18 18.04 15.02 17.64C14.86 17.25 14.6 16.91 14.27 16.65C15.1 16.4 16.27 15.8 17.15 16.17L18.9 16.75C19.15 16.84 19.37 17 19.52 17.21C19.68 17.43 19.76 17.68 19.76 17.95L19.76 18.78Z" fill="#8C52FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                    <path id="Vector" d="M17.78 15.61C18.07 15.4 18.31 15.12 18.47 14.8C18.63 14.47 18.72 14.12 18.72 13.76C18.61 10.72 14.24 10.72 14.13 13.76C14.13 14.12 14.22 14.47 14.38 14.8C14.54 15.12 14.78 15.4 15.07 15.61C14.8 15.71 13.61 16.06 13.39 16.21L11.72 15.65C14.01 14.21 12.98 10.58 10.24 10.58C7.5 10.58 6.47 14.21 8.76 15.65L7.1 16.21C6.87 16.06 5.68 15.7 5.42 15.61C5.81 15.32 6.1 14.92 6.25 14.46C6.39 14 6.39 13.5 6.24 13.05C6.09 12.59 5.8 12.18 5.41 11.9C5.02 11.62 4.55 11.46 4.06 11.46C3.58 11.46 3.11 11.62 2.72 11.9C2.33 12.18 2.03 12.59 1.88 13.05C1.73 13.5 1.73 14 1.88 14.46C2.03 14.92 2.32 15.32 2.71 15.61L1.35 16.06C0.96 16.19 0.61 16.44 0.37 16.78C0.13 17.12 -0.01 17.53 0 17.95L0 18.78C0 19 0.08 19.21 0.24 19.37C0.39 19.52 0.6 19.61 0.82 19.61L5.29 19.61C5.31 19.85 5.41 20.07 5.59 20.24C5.76 20.4 5.99 20.49 6.23 20.49L14.25 20.49C14.49 20.49 14.72 20.4 14.89 20.24C15.07 20.07 15.17 19.85 15.18 19.61L19.67 19.61C19.88 19.61 20.1 19.52 20.25 19.37C20.41 19.21 20.49 19 20.49 18.78L20.49 17.95C20.49 17.53 20.36 17.12 20.12 16.78C19.87 16.44 19.53 16.19 19.13 16.06L17.78 15.61ZM17.52 12.66C17.81 12.95 17.97 13.35 17.97 13.76C17.97 14.17 17.81 14.57 17.52 14.86C17.23 15.15 16.84 15.32 16.42 15.32C16.01 15.32 15.62 15.15 15.33 14.86C15.04 14.57 14.88 14.17 14.88 13.76C14.88 13.35 15.04 12.95 15.33 12.66C15.62 12.37 16.01 12.2 16.42 12.2C16.84 12.2 17.23 12.37 17.52 12.66ZM12.26 13.33C12.18 16.01 8.3 16.01 8.22 13.33C8.3 10.66 12.18 10.66 12.26 13.33ZM5.16 12.66C5.45 12.95 5.61 13.35 5.61 13.76C5.61 14.17 5.45 14.57 5.16 14.86C4.87 15.15 4.48 15.32 4.06 15.32C3.65 15.32 3.26 15.15 2.97 14.86C2.68 14.57 2.52 14.17 2.52 13.76C2.52 13.35 2.68 12.95 2.97 12.66C3.26 12.37 3.65 12.2 4.06 12.2C4.48 12.2 4.87 12.37 5.16 12.66ZM0.82 18.88C0.8 18.88 0.77 18.87 0.76 18.85C0.74 18.83 0.73 18.81 0.73 18.78L0.73 17.95C0.73 17.68 0.81 17.43 0.96 17.21C1.12 17 1.34 16.84 1.59 16.75L3.34 16.17C4.19 15.8 5.4 16.39 6.21 16.64C5.88 16.91 5.62 17.25 5.46 17.64C5.3 18.03 5.24 18.46 5.29 18.88L0.82 18.88ZM6.23 19.76C5.96 19.76 6.03 19.42 6.02 19.25C6.02 19.24 6.02 18.52 6.02 18.52C6.02 18.17 6.13 17.84 6.33 17.56C6.53 17.28 6.81 17.07 7.14 16.96L9.31 16.24C9.91 16.04 10.56 16.04 11.16 16.24L13.34 16.96C13.66 17.07 13.95 17.28 14.15 17.56C14.35 17.84 14.46 18.17 14.46 18.52L14.46 19.24C14.45 19.42 14.52 19.76 14.25 19.76L6.23 19.76ZM19.73 18.85C19.71 18.87 19.69 18.88 19.67 18.88L15.19 18.88C15.24 18.46 15.18 18.04 15.02 17.64C14.86 17.25 14.6 16.91 14.27 16.65C15.1 16.4 16.27 15.8 17.15 16.17L18.9 16.75C19.15 16.84 19.37 17 19.52 17.21C19.68 17.43 19.76 17.68 19.76 17.95L19.76 18.78C19.76 18.81 19.75 18.83 19.73 18.85Z" stroke="#8C52FF" stroke-opacity="1.000000" stroke-width="0.100000"/>
+                                    <path id="Vector" d="M8.96 8.06L9.95 9.37C9.98 9.41 10.03 9.45 10.08 9.47C10.13 9.5 10.18 9.51 10.24 9.51C10.3 9.51 10.35 9.5 10.4 9.47C10.46 9.45 10.5 9.41 10.53 9.37L11.51 8.06C15.94 6.53 14.93 0.08 10.24 0C5.54 0.08 4.54 6.53 8.96 8.06ZM10.24 0.73C14.16 0.81 14.92 6.22 11.19 7.39C11.12 7.41 11.05 7.46 11 7.52L10.24 8.54L9.48 7.52C9.43 7.46 9.36 7.41 9.29 7.39C5.55 6.22 6.32 0.81 10.24 0.73Z" fill="#8C52FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                    <path id="Vector" d="M9.95 9.37C9.98 9.41 10.03 9.45 10.08 9.47C10.13 9.5 10.18 9.51 10.24 9.51C10.3 9.51 10.35 9.5 10.4 9.47C10.46 9.45 10.5 9.41 10.53 9.37L11.51 8.06C15.94 6.53 14.93 0.08 10.24 0C5.54 0.08 4.54 6.53 8.96 8.06L9.95 9.37ZM11.19 7.39C11.12 7.41 11.05 7.46 11 7.52L10.24 8.54L9.48 7.52C9.43 7.46 9.36 7.41 9.29 7.39C5.55 6.22 6.32 0.81 10.24 0.73C14.16 0.81 14.92 6.22 11.19 7.39Z" stroke="#8C52FF" stroke-opacity="1.000000" stroke-width="0.100000"/>
+                                    <path id="Vector" d="M9.87 3.7L9.87 5.82L9.71 5.82C9.62 5.82 9.52 5.86 9.46 5.93C9.39 6 9.35 6.09 9.35 6.19C9.35 6.28 9.39 6.37 9.46 6.44C9.52 6.51 9.62 6.55 9.71 6.55L10.77 6.55C10.81 6.55 10.86 6.54 10.91 6.52C10.95 6.51 10.99 6.48 11.03 6.44C11.06 6.41 11.09 6.37 11.1 6.33C11.12 6.28 11.13 6.23 11.13 6.19C11.13 5.89 10.86 5.79 10.61 5.82L10.61 3.34C10.61 3.29 10.6 3.24 10.58 3.2C10.56 3.15 10.53 3.11 10.5 3.08C10.46 3.04 10.42 3.02 10.38 3C10.33 2.98 10.29 2.97 10.24 2.97L9.71 2.97C9.66 2.97 9.62 2.98 9.57 3C9.53 3.02 9.49 3.04 9.45 3.08C9.42 3.11 9.39 3.15 9.37 3.2C9.36 3.24 9.35 3.29 9.35 3.34C9.35 3.63 9.61 3.73 9.87 3.7Z" fill="#8C52FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                    <path id="Vector" d="M9.87 5.82L9.71 5.82C9.62 5.82 9.52 5.86 9.46 5.93C9.39 6 9.35 6.09 9.35 6.19C9.35 6.28 9.39 6.37 9.46 6.44C9.52 6.51 9.62 6.55 9.71 6.55L10.77 6.55C10.81 6.55 10.86 6.54 10.91 6.52C10.95 6.51 10.99 6.48 11.03 6.44C11.06 6.41 11.09 6.37 11.1 6.33C11.12 6.28 11.13 6.23 11.13 6.19C11.13 5.89 10.86 5.79 10.61 5.82L10.61 3.34C10.61 3.29 10.6 3.24 10.58 3.2C10.56 3.15 10.53 3.11 10.5 3.08C10.46 3.04 10.42 3.02 10.38 3C10.33 2.98 10.29 2.97 10.24 2.97L9.71 2.97C9.66 2.97 9.62 2.98 9.57 3C9.53 3.02 9.49 3.04 9.45 3.08C9.42 3.11 9.39 3.15 9.37 3.2C9.36 3.24 9.35 3.29 9.35 3.34C9.35 3.63 9.61 3.73 9.87 3.7L9.87 5.82Z" stroke="#8C52FF" stroke-opacity="1.000000" stroke-width="0.100000"/>
+                                    <path id="Vector" d="M10.69 1.97C10.69 1.83 10.63 1.69 10.53 1.59C10.43 1.49 10.3 1.43 10.15 1.43C10.01 1.43 9.87 1.49 9.77 1.59C9.67 1.69 9.61 1.83 9.61 1.97C9.61 2.11 9.67 2.25 9.77 2.35C9.87 2.45 10.01 2.5 10.15 2.5C10.3 2.5 10.43 2.45 10.53 2.35C10.63 2.25 10.69 2.11 10.69 1.97Z" fill="#8C52FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                    <path id="Vector" d="M10.53 1.59C10.43 1.49 10.3 1.43 10.15 1.43C10.01 1.43 9.87 1.49 9.77 1.59C9.67 1.69 9.61 1.83 9.61 1.97C9.61 2.11 9.67 2.25 9.77 2.35C9.87 2.45 10.01 2.5 10.15 2.5C10.3 2.5 10.43 2.45 10.53 2.35C10.63 2.25 10.69 2.11 10.69 1.97C10.69 1.83 10.63 1.69 10.53 1.59Z" stroke="#8C52FF" stroke-opacity="1.000000" stroke-width="0.100000"/>
+                                </svg>
+                                <span>Mô tả nhóm</span>
+                                <a class="chat-group-desc-edit" href="#"> <i class="fa-light fa-pen-line"></i></a>
+                            </div>
+                            <p>Nhập thông tin mô tả nhóm</p>
+                        </div>
+                        <div class="line-box-aside"></div>
+                        <div class="user-info-scroll">
+                            <div class="chat-setting-row">
+
+                                <i class="fa-light fa-users-medical"></i>
+                                <span>Thêm thành viên</span>
+                            </div>
+                            <div class="chat-setting-row">
+
+                                <i class="fa-light fa-bell"></i>
+                                <span>Tắt thông báo</span>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                  </label>
+                            </div>
+                            <div class="chat-setting-row">
+
+                                <i class="fa-light fa-thumb-tack"></i>
+                                <span>Ghim nhóm</span>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                  </label>
+                            </div>
+                            <div class="company-info-collapse list-calendar-collapse">
+                                <div class="label collapsed" data-bs-toggle="collapse" data-bs-target="#3">
+                                    <i class="fa-light fa-thumb-tack"></i>
+                                    <span>Tin nhắn đã ghim</span>
+                                    <i class="fa-light fa-chevron-right"></i>
+                                </div>
+                                <div class="collapse" id="3">
+                                    <div class="company-info-collapse-content">
+                                        <p>
+                                            Nội dung tin nhắn đã ghim 1
+                                        </p>
+                                        <p>
+                                            Nội dung tin nhắn đã ghim 2
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="user-chat-tab">
+                                <div class="tab-list-nav" role="tablist">
+                                    <a href="#image" data-bs-toggle="tab" class="item active">Ảnh/Video</a>
+                                    <a href="#file" data-bs-toggle="tab" class="item">File</a>
+                                    <a href="#link" data-bs-toggle="tab" class="item">Link</a>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade  show active" id="image">
+                                        <div class="tab-pane-image">
+                                            <div class="item">
+                                                <img src="../assets/images/image.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/image.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/image.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/image.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/image.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img src="../assets/images/image.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-viewall">
+                                            Xem tất cả
+                                        </button>
+                                    </div>
+                                    <div class="tab-pane fade" id="file">
+                                        <div class="tab-pane-file">
+                                            <div class="item">
+                                                <div class="file-type">
+                                                    <i class="fa-solid fa-file" style="color: blue;"></i>
+                                                    <span>W</span>
+                                                </div>
+                                                <div class="meta">
+                                                    <div class="file-name">file-dinh-kem.docx</div>
+                                                    <div class="size-date">
+                                                        <span class="size">4.04Mb</span>
+                                                        <span class="date">10/05/2024</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="file-type">
+                                                    <i class="fa-solid fa-file" style="color: blue;"></i>
+                                                    <span>W</span>
+                                                </div>
+                                                <div class="meta">
+                                                    <div class="file-name">file-dinh-kem.docx</div>
+                                                    <div class="size-date">
+                                                        <span class="size">4.04Mb</span>
+                                                        <span class="date">10/05/2024</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="file-type">
+                                                    <i class="fa-solid fa-file" style="color: blue;"></i>
+                                                    <span>W</span>
+                                                </div>
+                                                <div class="meta">
+                                                    <div class="file-name">file-dinh-kem.docx</div>
+                                                    <div class="size-date">
+                                                        <span class="size">4.04Mb</span>
+                                                        <span class="date">10/05/2024</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="file-type">
+                                                    <i class="fa-solid fa-file" style="color: blue;"></i>
+                                                    <span>W</span>
+                                                </div>
+                                                <div class="meta">
+                                                    <div class="file-name">file-dinh-kem.docx</div>
+                                                    <div class="size-date">
+                                                        <span class="size">4.04Mb</span>
+                                                        <span class="date">10/05/2024</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-viewall">
+                                            Xem tất cả
+                                        </button>
+                                    </div>
+                                    <div class="tab-pane fade" id="link">
+                                        <div class="tab-pane-link">
+                                            <div class="item">
+                                                <div class="favicon">
+                                                    <i class="fa-light fa-link"></i>
+                                                    <img src="" alt="">
+                                                </div>
+                                                <div class="meta">
+                                                    <div class="link-title">vnexpress | trang báo điện tử nhiều người đọc nhất</div>
+                                                    <div class="link-date">
+                                                        <a href="#" class="link">https://vnexpress.vn</a>
+                                                        <span class="date">10/05</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="favicon">
+                                                    <i class="fa-light fa-link"></i>
+                                                    <img src="" alt="">
+                                                </div>
+                                                <div class="meta">
+                                                    <div class="link-title">vnexpress | trang báo điện tử nhiều người đọc nhất</div>
+                                                    <div class="link-date">
+                                                        <a href="#" class="link">https://vnexpress.vn</a>
+                                                        <span class="date">10/05</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="favicon">
+                                                    <i class="fa-light fa-link"></i>
+                                                    <img src="" alt="">
+                                                </div>
+                                                <div class="meta">
+                                                    <div class="link-title">vnexpress | trang báo điện tử nhiều người đọc nhất</div>
+                                                    <div class="link-date">
+                                                        <a href="#" class="link">https://vnexpress.vn</a>
+                                                        <span class="date">10/05</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="favicon">
+                                                    <i class="fa-light fa-link"></i>
+                                                    <img src="" alt="">
+                                                </div>
+                                                <div class="meta">
+                                                    <div class="link-title">vnexpress | trang báo điện tử nhiều người đọc nhất</div>
+                                                    <div class="link-date">
+                                                        <a href="#" class="link">https://vnexpress.vn</a>
+                                                        <span class="date">10/05</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-viewall">
+                                            Xem tất cả
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line-box-aside"></div>
+                            <div class="chat-setting-row ">
+                                <i class="fa-light fa-users "></i>
+
+                                <span>Xem thành viên (3)</span>
+                                <span class="ms-auto text-gray icon-end">
+                                    <i class="fa-light fa-chevron-right"></i>
+                                </span>
+
+                            </div>
+                            <div class="chat-setting-row ">
+                                <i class="fa-light fa-user-check "></i>
+
+                                <span>Phê duyệt thành viên mới</span>
+                                <span class="ms-auto text-gray icon-end">
+                                    <i class="fa-light fa-chevron-right"></i>
+                                </span>
+
+                            </div>
+                            <div class="chat-setting-row ">
+                                <i class="fa-light fa-link "></i>
+
+                                <span>Link tham gia nhóm</span>
+                                <span class="ms-auto text-gray icon-end">
+                                    <i class="fa-light fa-chevron-right"></i>
+                                </span>
+
+                            </div>
+                            <div class="line-box-aside"></div>
+                            <div class="chat-setting-row ">
+                                <i class="fa-light fa-tag "></i>
+
+                                <span>Thẻ phân loại</span>
+                                <span class="ms-auto text-gray">Công việc</span>
+                            </div>
+                            <div class="chat-setting-row ">
+                                <i class="fa-light fa-link "></i>
+
+                                <span>Link tham gia nhóm</span>
+                                <span class="ms-auto text-gray icon-end">
+                                    <i class="fa-light fa-chevron-right"></i>
+                                </span>
+
+                            </div>
+                            <div class="chat-setting-row ">
+                                <i class="fa-light fa-user-ninja "></i>
+
+                                <span>Chuyển quyền trưởng nhóm</span>
+                                <span class="ms-auto text-gray icon-end">
+                                    <i class="fa-light fa-chevron-right"></i>
+                                </span>
+
+                            </div>
+                            <div class="chat-setting-row">
+
+                                <i class="fa-light fa-trash"></i>
+                                <span>Xóa lịch sử trò chuyện</span>
+                            </div>
+                            <div class="chat-setting-row text-main">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.000000" height="21.000000" viewBox="0 0 20 21" fill="none">
+                                   
+                                    <path id="Vector" d="M8.75 0.91C6.73 0.91 5.1 2.55 5.1 4.57C5.1 6.59 6.73 8.23 8.75 8.23C10.77 8.23 12.41 6.59 12.41 4.57C12.41 2.55 10.77 0.91 8.75 0.91ZM4.18 4.57C4.18 2.04 6.23 0 8.75 0C11.28 0 13.33 2.04 13.33 4.57C13.33 7.09 11.28 9.14 8.75 9.14C6.23 9.14 4.18 7.09 4.18 4.57Z" fill="#8C52FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                                    <path id="Vector" d="M5.1 4.57C5.1 6.59 6.73 8.23 8.75 8.23C10.77 8.23 12.41 6.59 12.41 4.57C12.41 2.55 10.77 0.91 8.75 0.91C6.73 0.91 5.1 2.55 5.1 4.57ZM8.75 0C11.28 0 13.33 2.04 13.33 4.57C13.33 7.09 11.28 9.14 8.75 9.14C6.23 9.14 4.18 7.09 4.18 4.57C4.18 2.04 6.23 0 8.75 0Z" stroke="#8C52FF" stroke-opacity="1.000000" stroke-width="0.200000"/>
+                                    <path id="Vector" d="M8.27 12.02C8.28 12.28 8.09 12.49 7.83 12.5C5.52 12.63 3.22 13.25 1.11 14.37C0.99 14.43 0.91 14.56 0.91 14.7L0.91 18.06C0.91 18.31 1.11 18.51 1.37 18.51L7.81 18.51C8.06 18.51 8.27 18.72 8.27 18.97C8.27 19.22 8.06 19.43 7.81 19.43L1.37 19.43C0.61 19.43 0 18.81 0 18.06L0 14.7C0 14.22 0.26 13.79 0.68 13.56C2.91 12.38 5.34 11.72 7.78 11.59C8.04 11.58 8.25 11.77 8.27 12.02Z" fill="#8C52FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                                    <path id="Vector" d="M7.83 12.5C5.52 12.63 3.22 13.25 1.11 14.37C0.99 14.43 0.91 14.56 0.91 14.7L0.91 18.06C0.91 18.31 1.11 18.51 1.37 18.51L7.81 18.51C8.06 18.51 8.27 18.72 8.27 18.97C8.27 19.22 8.06 19.43 7.81 19.43L1.37 19.43C0.61 19.43 0 18.81 0 18.06L0 14.7C0 14.22 0.26 13.79 0.68 13.56C2.91 12.38 5.34 11.72 7.78 11.59C8.04 11.58 8.25 11.77 8.27 12.02C8.28 12.28 8.09 12.49 7.83 12.5Z" stroke="#8C52FF" stroke-opacity="1.000000" stroke-width="0.200000"/>
+                                    <path id="Vector" d="M16.39 10.23C15.99 9.77 15.4 9.48 14.74 9.48L13 9.48C11.78 9.48 10.79 10.47 10.79 11.69L10.79 17.79C10.79 19.01 11.78 19.99 13 19.99L14.74 19.99C15.4 19.99 15.99 19.71 16.39 19.25C16.56 19.06 16.54 18.77 16.35 18.6C16.16 18.44 15.87 18.45 15.71 18.64C15.47 18.91 15.13 19.08 14.74 19.08L13 19.08C12.29 19.08 11.71 18.5 11.71 17.79L11.71 11.69C11.71 10.97 12.29 10.4 13 10.4L14.74 10.4C15.13 10.4 15.47 10.57 15.71 10.83C15.87 11.02 16.16 11.04 16.35 10.87C16.54 10.71 16.56 10.42 16.39 10.23Z" fill="#8C52FF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                                    <path id="Vector" d="M14.74 9.48L13 9.48C11.78 9.48 10.79 10.47 10.79 11.69L10.79 17.79C10.79 19.01 11.78 19.99 13 19.99L14.74 19.99C15.4 19.99 15.99 19.71 16.39 19.25C16.56 19.06 16.54 18.77 16.35 18.6C16.16 18.44 15.87 18.45 15.71 18.64C15.47 18.91 15.13 19.08 14.74 19.08L13 19.08C12.29 19.08 11.71 18.5 11.71 17.79L11.71 11.69C11.71 10.97 12.29 10.4 13 10.4L14.74 10.4C15.13 10.4 15.47 10.57 15.71 10.83C15.87 11.02 16.16 11.04 16.35 10.87C16.54 10.71 16.56 10.42 16.39 10.23C15.99 9.77 15.4 9.48 14.74 9.48Z" stroke="#8C52FF" stroke-opacity="1.000000" stroke-width="0.200000"/>
+                                    <mask id="mask_508_8645" fill="white">
+                                        <path id="Union" d="M19.009 15.0674C19.0983 14.9781 19.1429 14.8611 19.1429 14.744C19.1429 14.627 19.0983 14.51 19.009 14.4207C19.0078 14.4194 19.0065 14.4181 19.0052 14.4169L17.18 12.5916C17.0015 12.4131 16.7119 12.4131 16.5333 12.5916C16.3548 12.7702 16.3548 13.0598 16.5333 13.2384L17.5817 14.2868L13.6559 14.2868C13.4033 14.2868 13.1986 14.4915 13.1986 14.744C13.1986 14.9965 13.4033 15.2013 13.6559 15.2013L17.5817 15.2013L16.5333 16.2497C16.3548 16.4283 16.3548 16.7178 16.5333 16.8964C16.7119 17.075 17.0015 17.075 17.18 16.8964L19.0052 15.0712C19.0065 15.07 19.0078 15.0687 19.009 15.0674Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
+                                    </mask>
+                                    <path id="Union" d="M19.009 15.0674C19.0983 14.9781 19.1429 14.8611 19.1429 14.744C19.1429 14.627 19.0983 14.51 19.009 14.4207C19.0078 14.4194 19.0065 14.4181 19.0052 14.4169L17.18 12.5916C17.0015 12.4131 16.7119 12.4131 16.5333 12.5916C16.3548 12.7702 16.3548 13.0598 16.5333 13.2384L17.5817 14.2868L13.6559 14.2868C13.4033 14.2868 13.1986 14.4915 13.1986 14.744C13.1986 14.9965 13.4033 15.2013 13.6559 15.2013L17.5817 15.2013L16.5333 16.2497C16.3548 16.4283 16.3548 16.7178 16.5333 16.8964C16.7119 17.075 17.0015 17.075 17.18 16.8964L19.0052 15.0712C19.0065 15.07 19.0078 15.0687 19.009 15.0674Z" clip-rule="evenodd" fill="#8C52FF" fill-opacity="1.000000" fill-rule="evenodd" mask="url(#mask_508_8645)"/>
+                                    <path id="Union" d="M18.9383 14.9967Q19.043 14.8921 19.043 14.744Q19.043 14.596 18.9383 14.4914L18.9349 14.488L17.1093 12.6624Q17.0046 12.5578 16.8567 12.5578Q16.7087 12.5578 16.604 12.6624Q16.4995 12.767 16.4995 12.915Q16.4995 13.063 16.6041 13.1677L17.8231 14.3868L13.6559 14.3868Q13.5079 14.3868 13.4033 14.4914Q13.2986 14.5961 13.2986 14.744Q13.2986 14.892 13.4033 14.9966Q13.5079 15.1013 13.6559 15.1013L17.8231 15.1013L16.604 16.3204Q16.4995 16.425 16.4995 16.5731Q16.4995 16.7211 16.6041 16.8257Q16.7087 16.9303 16.8567 16.9303Q17.0046 16.9303 17.1093 16.8257L18.9345 15.0005L18.9387 14.9963L18.9383 14.9967ZM19.0793 15.1385L19.0759 15.1419L17.2507 16.9671Q17.0875 17.1303 16.8567 17.1303Q16.6259 17.1303 16.4626 16.9671Q16.2994 16.8039 16.2994 16.5731Q16.2994 16.3422 16.4626 16.179L17.511 15.1306L17.5817 15.2013L17.5817 15.3013L13.6559 15.3013Q13.425 15.3013 13.2618 15.138Q13.0986 14.9748 13.0986 14.744Q13.0986 14.5132 13.2618 14.35Q13.425 14.1868 13.6559 14.1868L17.5817 14.1868L17.5817 14.2868L17.511 14.3575L16.4626 13.3091Q16.2994 13.1458 16.2994 12.915Q16.2994 12.6842 16.4626 12.5209Q16.6259 12.3578 16.8567 12.3578Q17.0875 12.3578 17.2507 12.5209L19.0755 14.3458L19.0797 14.3499Q19.243 14.5132 19.243 14.744Q19.243 14.9749 19.0797 15.1382L19.0793 15.1385Z" fill="#8C52FF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </svg>
+                                <span>Rời nhóm</span>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+    </div>
+    <!-- modal -->
+    <!-- modal tạo nhóm -->
+    <div class="modal fade" id="taonhomchat">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Tạo nhóm</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-create-group">
+                        <div class="top">
+                            <img src="../assets/images/creat-img.png" alt="">
+                            <input type="text" class="form-control" placeholder="Nhập tên nhóm">
+                        </div>
+                        <div class="d-flex">
+                            <div class="modal-contact">
+                                <div class="quick-search">
+                                    <input type="text" class="form-control" placeholder="Nhập tên hoặc số điện thoại">
+                                    <i class="fa-light fa-search"></i>
+                                </div>
+                                <div class="modal-contact-list">
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="" checked>
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="" checked>
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                    <div class="item">
+                                        <label class="check-custom">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        </label>
+                                        <img src="../assets/images/user-avatar.jpg" alt="" class="avatar">
+                                        <div class="user-name">Trương Minh Tuyền</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-contact-selected">
+                                <div class="label">
+                                    Đã chọn <span>4/100</span>
+                                </div>
+                                <div class="modal-contact-select-list">
+                                    <div class="item">
+                                        <img src="../assets/images/user-avatar.jpg" alt="">
+                                        <div class="user-name">Trương Minh San</div>
+                                        <i class="fa-solid fa-circle-xmark"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-gray-2" data-bs-dismiss="modal">Hủy</button>
+                    <button type="button" class="btn btn-main">Tạo nhóm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal giao việc -->
+    <div class="modal fade" id="giaoviec">
+        <div class="modal-dialog modal-dialog-centered modal-1200">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Giao việc</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-create-job">
+                        <div class="create-job-wrap">
+                            <div class="create-job-left">
+                                <div class="main-title"><span>Thông tin chung</span></div>
+                                <div class=" create-job-name-row">
+                                    <div class="input-label-body">
+                                        <span>Tạo công việc <span class="text-red ms-0 ps-0">*</span></span>
+                                        <input type="text" placeholder="Tiêu đề công việc" class="form-control">
+                                    </div>
+                                    <div class="input-checkbox">
+                                        <label class="check-custom square">
+                                            <input type="checkbox" name="" checked>
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        
+                                        </label>
+                                        <span>Quan trọng</span>
+                                    </div>
+                                </div>
+                                <div class="create-job-ca-row">
+                                    <div class="input-checkbox">
+                                        <label class="check-custom square">
+                                            <input type="checkbox" name="">
+                                            <span><i class="fa-light fa-check"></i></span>
+                                        
+                                        </label>
+                                        <span>Chọn theo ca, giờ</span>
+                                    </div>
+                                    <div class=" ca-select">
+                                        <label class="fw-bold">Ca</label>
+                                        <select name="" id="" class="select2-gv form-select">
+                                            <option value="">Chọn ca</option>
+                                            <option value="">Chọn ca</option>
+                                            <option value="">Chọn ca</option>
+                                            <option value="">Chọn ca</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="create-job-date-row">
+                                    <div class="date-time">
+                                        <div class="date">
+                                            <div class="label">Ngày bắt đầu <span class="text-red">*</span></div>
+                                            <div class="quick-search">
+                                                <input type="text" class="form-control" value="11/05/2024">
+                                                <i class="fa-light fa-calendar-day"></i>
+                                            </div>
+                                        </div>
+                                        <div class="time">
+                                            <div class="label">Giờ bắt đầu <span class="text-red">*</span></div>
+                                            <div class="quick-search">
+                                                <input type="text" class="form-control" value="09:05" disabled>
+                                                <i class="fa-light fa-clock"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="date-time">
+                                        <div class="date">
+                                            <div class="label">Ngày kết thúc <span class="text-red">*</span></div>
+                                            <div class="quick-search">
+                                                <input type="text" class="form-control" value="11/05/2024">
+                                                <i class="fa-light fa-calendar-day"></i>
+                                            </div>
+                                        </div>
+                                        <div class="time">
+                                            <div class="label">Giờ kết thúc <span class="text-red">*</span></div>
+                                            <div class="quick-search">
+                                                <input type="text" class="form-control" value="09:05" disabled>
+                                                <i class="fa-light fa-clock"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="create-job-cont-ip">
+                                    <div class="input-label-body">
+                                        <span>Nội dung<span class="text-red ms-0 ps-0">*</span></span>
+                                        <textarea name="" id="" rows="3" class="form-control" placeholder="Nhập nội dung công việc"></textarea>
+                                    </div>
+                                </div>
+                                <div class="create-job-type-select">
+
+                                    <div class="type-job-select">
+                                        <div class="select2-label-top">
+                                            <div class="label">Loại công việc <span class="text-red">*</span></div>
+                                            <select name="" id="" class="select2-gv form-select">
+                                                <option value="">Làm sản phẩm</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                                
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="name-select">
+                                        <div class="select2-label-top">
+                                            <div class="label">Người thực hiện chính <span class="text-red">*</span></div>
+                                            <select name="" id="" class="select2-gv form-select">
+                                                    <option value="">Nguyễn Thị Bích</option>
+                                                    <option value="">Chọn ca</option>
+                                                    <option value="">Chọn ca</option>
+                                                    <option value="">Chọn ca</option>
+                                                </select>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="create-job-table table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <td>Tên file đính kèm</td>
+                                                <td style="width: 120px;">Người đính kèm</td>
+                                                <td style="width: 125px;">Ngày đính kèm</td>
+                                                <td style="width: 90px;">Dung lượng</td>
+                                                <td></td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span class="truncate-2">Báo cáo công việc hằng ngày từ ngày đến ngày</span></td>
+                                                <td>Hoàng ánh mai</td>
+                                                <td>10/10/2023 09:05</td>
+                                                <td>528.11 KB</td>
+                                                <td>
+                                                    <div class="create-job-table-action">
+                                                        <a href="#"><i class="fa-light fa-download"></i></a>
+                                                        <a href="#"><i class="fa-light fa-trash"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Báo cáo công việc hằng ngày từ ngày đến ngày</td>
+                                                <td>Hoàng ánh mai</td>
+                                                <td>10/10/2023 09:05</td>
+                                                <td>528.11 KB</td>
+                                                <td>
+                                                    <div class="create-job-table-action">
+                                                        <a href="#"><i class="fa-light fa-download"></i></a>
+                                                        <a href="#"><i class="fa-light fa-trash"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Báo cáo công việc hằng ngày từ ngày đến ngày</td>
+                                                <td>Hoàng ánh mai</td>
+                                                <td>10/10/2023 09:05</td>
+                                                <td>528.11 KB</td>
+                                                <td>
+                                                    <div class="create-job-table-action">
+                                                        <a href="#"><i class="fa-light fa-download"></i></a>
+                                                        <a href="#"><i class="fa-light fa-trash"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="add-file"><a href="#">Thêm tài liệu đính kèm</a></div>
+                                </div>
+                            </div>
+                            <div class="create-job-right">
+                                <div class="main-title">Thông tin khác</div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="select2-label-top">
+                                        <div class="label">Người giao việc</div>
+                                        <select name="" id="" class="select2-multi form-select" multiple>
+                                                <option value="" selected>Nguyễn Thị Bích</option>
+                                                <option value="" selected>Nguyễn Hiên</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="select2-label-top">
+                                        <div class="label">Xử lý phối hợp</div>
+                                        <select name="" id="" class="select2-gv form-select">
+                                                <option value="">Nguyễn Thị Bích</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="select2-label-top">
+                                        <div class="label">Dự án</div>
+                                        <select name="" id="" class="select2-gv form-select">
+                                                <option value="">--Tất cả--</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="select2-label-top">
+                                        <div class="label">Gói thầu</div>
+                                        <select name="" id="" class="select2-gv form-select">
+                                                <option value="">--Tất cả--</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="select2-label-top">
+                                        <div class="label">Hạng mục</div>
+                                        <select name="" id="" class="select2-gv form-select">
+                                                <option value="">--Tất cả--</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                                <option value="">Chọn ca</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <!-- <div class="create-job-multi-user-row">
+                                    <div class="input-label-body">
+                                        <span>Dự án</span>
+                                        <input type="text" placeholder="Tên dự án" class="form-control">
+                                    </div>
+                                </div> -->
+                                <div class="create-job-multi-user-row">
+                                    <div class="input-label-body quick-search">
+                                        <span>Công văn</span>
+                                        <input type="text" placeholder="Công văn" class="form-control">
+                                        <i class="fa-light fa-arrow-up-right-from-square text-link"></i>
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="input-label-body">
+                                        <span>Công việc chính</span>
+                                        <input type="text" placeholder="Công việc chính" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="create-job-multi-user-row">
+                                    <div class="input-label-body quick-search">
+                                        <span>Khách hàng</span>
+                                        <input type="text" placeholder="Khách hàng" class="form-control">
+                                        <i class="fa-light fa-user-plus text-link"></i>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-top: -15px;">
+                                    <div class="col-12 col-md-7">
+                                        <div class="create-job-multi-user-row">
+                                            <div class="input-label-body">
+                                                <span>Địa điểm</span>
+                                                <input type="text" placeholder="Địa điểm" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-5">
+                                        <div class="create-job-multi-user-row">
+                                            <div class="select2-label-top">
+                                                <div class="label">Xe</div>
+                                                <select name="" id="" class="select2-gv form-select">
+                                                        <option value="">Chọn xe</option>
+                                                        <option value="">Chọn ca</option>
+                                                        <option value="">Chọn ca</option>
+                                                        <option value="">Chọn ca</option>
+                                                    </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-main">Cập nhật CV</button>
+                    <button type="button" class="btn btn-gray-2 ms-4" data-bs-dismiss="modal">Hủy bỏ CV</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal quản lý thẻ phân loại -->
+    <div class="modal fade" id="tag_manager">
+        <div class="modal-dialog modal-dialog-centered modal-">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Quản lý thẻ phân loại</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="mb-2 fw-medium">Danh sách thẻ phân loại</p>
+                    <div class="mod-tag-item">
+                        <div class="cont">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 12 13" fill="none">
+                                <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="yellow"></path>
+                            </svg>
+                            <span>Kỹ thuật phần mềm</span>
+                        </div>
+                        <div class="action">
+                            <a href="#tag_edit" data-bs-toggle="modal"><i class="fa-light fa-pen-line"></i></a>
+                            <a href="#tag_delete" data-bs-toggle="modal"><i class="fa-light fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="mod-tag-item">
+                        <div class="cont">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 12 13" fill="none">
+                                <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="yellow"></path>
+                            </svg>
+                            <span>Kỹ thuật phần mềm</span>
+                        </div>
+                        <div class="action">
+                            <a href="#tag_edit" data-bs-toggle="modal"><i class="fa-light fa-pen-line"></i></a>
+                            <a href="#tag_delete" data-bs-toggle="modal"><i class="fa-light fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="mod-tag-item">
+                        <div class="cont">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 12 13" fill="none">
+                                <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="yellow"></path>
+                            </svg>
+                            <span>Kỹ thuật phần mềm</span>
+                        </div>
+                        <div class="action">
+                            <a href="#tag_edit" data-bs-toggle="modal"><i class="fa-light fa-pen-line"></i></a>
+                            <a href="#tag_delete" data-bs-toggle="modal"><i class="fa-light fa-trash"></i></a>
+                        </div>
+                    </div>
+                    <div class="mod-tag-item">
+                        <div class="cont">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 12 13" fill="none">
+                                <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="yellow"></path>
+                            </svg>
+                            <span>Kỹ thuật phần mềm</span>
+                        </div>
+                        <div class="action">
+                            <a href="#tag_edit" data-bs-toggle="modal"><i class="fa-light fa-pen-line"></i></a>
+                            <a href="#tag_delete" data-bs-toggle="modal"><i class="fa-light fa-trash"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-main" data-bs-toggle="modal" data-bs-target="#add_tag">Thêm thẻ phân loại</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal quản lý thẻ phân loại -->
+    <div class="modal fade" id="add_tag">
+        <div class="modal-dialog modal-dialog-centered modal-">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Thêm thẻ phân loại</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="mb-2 fw-medium">Tên thẻ phân loại</p>
+                    <div class="add-tag-wrap">
+                        <input type="text" class="form-control">
+                        <div class="add-tag-dropdown ms-3">
+                            <button class="btn btn-add-tag" data-bs-toggle="dropdown">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewBox="0 0 12 13" fill="none">
+                                    <path d="M0 2.18752V6.27541C0 6.74026 0.183203 7.18596 0.511328 7.51408L5.32383 12.3266C6.00742 13.0102 7.11484 13.0102 7.79844 12.3266L11.4488 8.67619C12.1324 7.9926 12.1324 6.88518 11.4488 6.20158L6.63633 1.38908C6.3082 1.06096 5.8625 0.877756 5.39766 0.877756H1.3125C0.587891 0.875022 0 1.46291 0 2.18752ZM3.0625 3.06252C3.29456 3.06252 3.51712 3.15471 3.68122 3.3188C3.84531 3.4829 3.9375 3.70546 3.9375 3.93752C3.9375 4.16959 3.84531 4.39215 3.68122 4.55624C3.51712 4.72033 3.29456 4.81252 3.0625 4.81252C2.83044 4.81252 2.60788 4.72033 2.44378 4.55624C2.27969 4.39215 2.1875 4.16959 2.1875 3.93752C2.1875 3.70546 2.27969 3.4829 2.44378 3.3188C2.60788 3.15471 2.83044 3.06252 3.0625 3.06252Z" fill="red"></path>
+                                    </svg>
+                            </button>
+                            <div class="dropdown-menu">
+                                <p>Chọn màu cho thẻ</p>
+                                <div class="dropdown-tag-list">
+                                    <label class="check-custom square">
+                                        <input type="radio" name="name123" checked>
+                                        <span style="background-color: red;"><i class="fa-light fa-check"></i></span>
+                                       
+                                    </label>
+                                    <label class="check-custom square">
+                                        <input type="radio" name="name123">
+                                        <span style="background-color: green;"><i class="fa-light fa-check"></i></span>
+                                       
+                                    </label>
+                                    <label class="check-custom square">
+                                        <input type="radio" name="name123">
+                                        <span style="background-color: red;"><i class="fa-light fa-check"></i></span>
+                                       
+                                    </label>
+                                    <label class="check-custom square">
+                                        <input type="radio" name="name123">
+                                        <span style="background-color: green;"><i class="fa-light fa-check"></i></span>
+                                       
+                                    </label>
+                                    <label class="check-custom square">
+                                        <input type="radio" name="name123">
+                                        <span style="background-color: red;"><i class="fa-light fa-check"></i></span>
+                                       
+                                    </label>
+                                    <label class="check-custom square">
+                                        <input type="radio" name="name123">
+                                        <span style="background-color: green;"><i class="fa-light fa-check"></i></span>
+                                       
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mb-2 fw-medium mt-3">Hộp thoại được gắn phân loại</p>
+                    <button type="button" class="btn btn-outline-main mb-5">
+                        <i class="fa-light fa-plus"></i>
+                        <span>Thêm hộp thoại</span>
+                    </button>
+
+
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-gray-2" data-bs-dismiss="modal">Hủy</button>
+                    <button type="button" class="btn btn-main">Thêm thẻ phân loại</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="../assets/bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/jquery-3.7.1.min.js"></script>
+    <script src="../assets/scrollbar/jquery.scrollbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.full.min.js"></script>
+
+    <script src="../assets/js/custom.js"></script>
+    <script>
+        const chattingContent = document.querySelector('.chat-body');
+        chattingContent.scrollTop = chattingContent.scrollHeight;
+        $(document).ready(function() {
+
+            $('.select2-gv').select2({
+                dropdownParent: $('#giaoviec')
+            });
+            $('.select2-multi').select2({
+                dropdownParent: $('#giaoviec')
+            });
+            $('body').on("click", ".messger-sort-item.item-1 .dropdown-menu", function(e) {
+                $(this).is(".show") && e.stopPropagation();
+            });
+
+
+        });
+    </script>
+
+</body>
+
+</html>
